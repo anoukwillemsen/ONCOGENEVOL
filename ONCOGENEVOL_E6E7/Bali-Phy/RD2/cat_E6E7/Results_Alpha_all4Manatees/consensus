@@ -1,0 +1,34 @@
+# n_trees = 270003   n_topologies = 101   n_splits/(Leaves-3) = 6.71429
+# n_splits = 47   Leaves = 10
+
+Topology support: 
+
+MAP-0 = (((('SscPV3_SscPV3REF_Dyoomikron_1',('SsPV1_SsPV1REF_Dyodelta_1','UmPV1_UmPV1REF_Omega_1')),('HPV59_HPV59REF_Alpha_7','HPV78_HPV78REF_Alpha_2')),(('TmPV3_TmPV3REF_Rho_2','TmPV4_TmPV4REF_Rho_2'),('TmPV1_TmPV1REF_Rho_1','TmPV2_TmPV2REF_Rho_1'))))'HPV42_HPV42REF_Alpha_1';
+   PP = 0.572442       LOD = 0.126735     (count = 154561)
+
+95% credible set contains 13 topologies.
+
+
+partition support: 
+
+   PP = 1       LOD = 5.43137       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 SsPV1_SsPV1REF_Dyodelta_1 SscPV3_SscPV3REF_Dyoomikron_1 UmPV1_UmPV1REF_Omega_1 
+
+
+   PP = 1       LOD = 5.43137       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 SsPV1_SsPV1REF_Dyodelta_1 SscPV3_SscPV3REF_Dyoomikron_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 UmPV1_UmPV1REF_Omega_1 
+
+
+   PP = 0.999863       LOD = 3.85153       pi = SsPV1_SsPV1REF_Dyodelta_1 UmPV1_UmPV1REF_Omega_1 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 SscPV3_SscPV3REF_Dyoomikron_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+
+   PP = 0.998259       LOD = 2.75759       pi = TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 SsPV1_SsPV1REF_Dyodelta_1 SscPV3_SscPV3REF_Dyoomikron_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 UmPV1_UmPV1REF_Omega_1 
+
+
+   PP = 0.933575       LOD = 1.14779       pi = HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 | HPV42_HPV42REF_Alpha_1 SsPV1_SsPV1REF_Dyodelta_1 SscPV3_SscPV3REF_Dyoomikron_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 UmPV1_UmPV1REF_Omega_1 
+
+
+   PP = 0.784136       LOD = 0.560205       pi = HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 SsPV1_SsPV1REF_Dyodelta_1 SscPV3_SscPV3REF_Dyoomikron_1 UmPV1_UmPV1REF_Omega_1 | HPV42_HPV42REF_Alpha_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+
+   PP = 0.727044       LOD = 0.425464       pi = SsPV1_SsPV1REF_Dyodelta_1 SscPV3_SscPV3REF_Dyoomikron_1 UmPV1_UmPV1REF_Omega_1 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+

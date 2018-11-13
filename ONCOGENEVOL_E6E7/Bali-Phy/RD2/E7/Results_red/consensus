@@ -1,0 +1,19 @@
+# n_trees = 270003   n_topologies = 3   n_splits/(Leaves-3) = 7
+# n_splits = 7   Leaves = 4
+
+Topology support: 
+
+MAP-0 = (('SscPV3_SscPV3REF_Dyoomikron_1',('HPV59_HPV59REF_Alpha_7','HPV78_HPV78REF_Alpha_2')))'HPV42_HPV42REF_Alpha_1';
+   PP = 0.598008       LOD = 0.172489     (count = 161464)
+
+95% credible set contains 3 topologies.
+
+
+partition support: 
+
+   PP = 0.598008       LOD = 0.172489       pi = HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 | HPV42_HPV42REF_Alpha_1 SscPV3_SscPV3REF_Dyoomikron_1 
+
+
+   PP = 0.341141       LOD = -0.285857       pi = HPV78_HPV78REF_Alpha_2 SscPV3_SscPV3REF_Dyoomikron_1 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 
+
+

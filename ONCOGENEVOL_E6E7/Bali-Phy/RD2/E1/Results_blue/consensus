@@ -1,0 +1,22 @@
+# n_trees = 270003   n_topologies = 3   n_splits/(Leaves-3) = 3.66667
+# n_splits = 11   Leaves = 6
+
+Topology support: 
+
+MAP-0 = ((('OaPV1_OaPV1REF_Delta_3','OvPV1_OvPV1REF_Delta_2'),('CePV2_CePV2REF_Epsilon',('EcPV1_EcPV1REF_Zeta_1','EcPV2_EcPV2REF_Dyoiota_1'))))'CdPV1_CdPV1REF_Delta_6';
+   PP = 0.980778       LOD = 1.70769     (count = 264813)
+
+95% credible set contains 1 topologies.
+
+
+partition support: 
+
+   PP = 1       LOD = 5.43137       pi = OaPV1_OaPV1REF_Delta_3 OvPV1_OvPV1REF_Delta_2 | CdPV1_CdPV1REF_Delta_6 CePV2_CePV2REF_Epsilon EcPV1_EcPV1REF_Zeta_1 EcPV2_EcPV2REF_Dyoiota_1 
+
+
+   PP = 1       LOD = 5.43137       pi = EcPV1_EcPV1REF_Zeta_1 EcPV2_EcPV2REF_Dyoiota_1 | CdPV1_CdPV1REF_Delta_6 CePV2_CePV2REF_Epsilon OaPV1_OaPV1REF_Delta_3 OvPV1_OvPV1REF_Delta_2 
+
+
+   PP = 0.980778       LOD = 1.70769       pi = CePV2_CePV2REF_Epsilon EcPV1_EcPV1REF_Zeta_1 EcPV2_EcPV2REF_Dyoiota_1 | CdPV1_CdPV1REF_Delta_6 OaPV1_OaPV1REF_Delta_3 OvPV1_OvPV1REF_Delta_2 
+
+

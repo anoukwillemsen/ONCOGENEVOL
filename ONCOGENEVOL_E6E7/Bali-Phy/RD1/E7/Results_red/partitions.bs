@@ -1,0 +1,24 @@
+# Loading trees from 'Alpha_c1-1//C1.trees'...
+# Loading trees from 'Alpha_c2-1//C1.trees'...
+# Loading trees from 'Alpha_c3-1//C1.trees'...
+# [ seed = 9185835155646902929    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+1/1:
+HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 
+   PP1-1 = 0.902       (1=81146  0=8855)  [6113]
+   PP1-2 = 0.902       (1=81196  0=8805)  [6093]
+   PP1-3 = 0.905       (1=81472  0=8529)  [6034]
+   PP1   = 0.903       (1=243814  0=26189)  [18240]
+
+  LOD1-1 = 0.962       ACT = 1.948          Ne = 46204.868
+  LOD1-2 = 0.965       ACT = 1.945          Ne = 46266.123
+  LOD1-3 = 0.980       ACT = 1.933          Ne = 46558.020
+  LOD1   = 0.969       ACT = 1.939          Ne = 139246.369
+
+  RNe1 = inf
+
+
+ASDSF[min=0.100] = 0.002     MSDSF = 0.002
+min Ne = 139246.369    (partition = 1)

@@ -1,0 +1,28 @@
+# n_trees = 270003   n_topologies = 6   n_splits/(Leaves-3) = 3.2
+# n_splits = 16   Leaves = 8
+
+Topology support: 
+
+MAP-0 = (((('TmPV2_TmPV2REF_Rho_1','TmPV3_TmPV3REF_Rho_2'),('MrPV1_MrPV1REF_unclassified','PphPV4_PphPV4REF_Dyopi_1')),('HPV32_HPV32REF_Alpha_1',('HPV70_HPV70REF_Alpha_7','HPV77_HPV77REF_Alpha_2'))))'AgPV1_AgPV1REF_Dyoomikron';
+   PP = 0.732907       LOD = 0.438382     (count = 197887)
+
+95% credible set contains 4 topologies.
+
+
+partition support: 
+
+   PP = 1       LOD = 5.43137       pi = MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 
+
+
+   PP = 1       LOD = 5.43137       pi = TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 
+
+
+   PP = 1       LOD = 5.43137       pi = HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 | AgPV1_AgPV1REF_Dyoomikron MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 
+
+
+   PP = 0.957626       LOD = 1.35406       pi = HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 
+
+
+   PP = 0.768766       LOD = 0.521736       pi = MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 
+
+

@@ -1,0 +1,43 @@
+# n_trees = 270003   n_topologies = 302   n_splits/(Leaves-3) = 9.42857
+# n_splits = 66   Leaves = 10
+
+Topology support: 
+
+MAP-0 = (('PphPV4_PphPV4REF_Dyopi_1',(('HPV32_HPV32REF_Alpha_1',('MrPV1_MrPV1REF_unclassified',(('TmPV3_TmPV3REF_Rho_2','TmPV4_TmPV4REF_Rho_2'),('TmPV1_TmPV1REF_Rho_1','TmPV2_TmPV2REF_Rho_1')))),('HPV70_HPV70REF_Alpha_7','HPV77_HPV77REF_Alpha_2'))))'AgPV1_AgPV1REF_Dyoomikron';
+   PP = 0.179731       LOD = -0.659325     (count = 48528)
+
+95% credible set contains 41 topologies.
+
+
+partition support: 
+
+   PP = 1       LOD = 5.43137       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 
+
+
+   PP = 1       LOD = 5.43137       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+
+   PP = 0.999896       LOD = 3.96893       pi = TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 
+
+
+   PP = 0.871487       LOD = 0.831302       pi = HPV32_HPV32REF_Alpha_1 MrPV1_MrPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 PphPV4_PphPV4REF_Dyopi_1 
+
+
+   PP = 0.569371       LOD = 0.121292       pi = HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron PphPV4_PphPV4REF_Dyopi_1 
+
+
+   PP = 0.557431       LOD = 0.100209       pi = HPV32_HPV32REF_Alpha_1 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV70_HPV70REF_Alpha_7 PphPV4_PphPV4REF_Dyopi_1 
+
+
+   PP = 0.49612       LOD = -0.00673962       pi = MrPV1_MrPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 PphPV4_PphPV4REF_Dyopi_1 
+
+
+   PP = 0.446791       LOD = -0.0927835       pi = HPV32_HPV32REF_Alpha_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 
+
+
+   PP = 0.389422       LOD = -0.19532       pi = HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+
+   PP = 0.26549       LOD = -0.441946       pi = HPV70_HPV70REF_Alpha_7 PphPV4_PphPV4REF_Dyopi_1 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+

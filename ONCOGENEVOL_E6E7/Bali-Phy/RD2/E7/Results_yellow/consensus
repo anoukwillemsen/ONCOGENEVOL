@@ -1,0 +1,28 @@
+# n_trees = 270003   n_topologies = 33   n_splits/(Leaves-3) = 8.33333
+# n_splits = 25   Leaves = 6
+
+Topology support: 
+
+MAP-0 = (('FcaPV1_FcaPV1REF_Lambda_1',('RfPV1_RfPV1REF_Treisdelta_1',('OcPV1_OcPV1REF_Kappa_1',('MscPV2_MscPV2REF_Dyotau_1','TePV1_TePV1REF_Dyophi_1')))))'CPV6_CPV6REF_Lambda_3';
+   PP = 0.281267       LOD = -0.407445     (count = 75943)
+
+95% credible set contains 12 topologies.
+
+
+partition support: 
+
+   PP = 0.835891       LOD = 0.707008       pi = MscPV2_MscPV2REF_Dyotau_1 OcPV1_OcPV1REF_Kappa_1 RfPV1_RfPV1REF_Treisdelta_1 TePV1_TePV1REF_Dyophi_1 | CPV6_CPV6REF_Lambda_3 FcaPV1_FcaPV1REF_Lambda_1 
+
+
+   PP = 0.516539       LOD = 0.0287409       pi = OcPV1_OcPV1REF_Kappa_1 TePV1_TePV1REF_Dyophi_1 | CPV6_CPV6REF_Lambda_3 FcaPV1_FcaPV1REF_Lambda_1 MscPV2_MscPV2REF_Dyotau_1 RfPV1_RfPV1REF_Treisdelta_1 
+
+
+   PP = 0.40274       LOD = -0.171137       pi = MscPV2_MscPV2REF_Dyotau_1 OcPV1_OcPV1REF_Kappa_1 TePV1_TePV1REF_Dyophi_1 | CPV6_CPV6REF_Lambda_3 FcaPV1_FcaPV1REF_Lambda_1 RfPV1_RfPV1REF_Treisdelta_1 
+
+
+   PP = 0.382303       LOD = -0.208366       pi = MscPV2_MscPV2REF_Dyotau_1 TePV1_TePV1REF_Dyophi_1 | CPV6_CPV6REF_Lambda_3 FcaPV1_FcaPV1REF_Lambda_1 OcPV1_OcPV1REF_Kappa_1 RfPV1_RfPV1REF_Treisdelta_1 
+
+
+   PP = 0.307904       LOD = -0.351748       pi = OcPV1_OcPV1REF_Kappa_1 RfPV1_RfPV1REF_Treisdelta_1 TePV1_TePV1REF_Dyophi_1 | CPV6_CPV6REF_Lambda_3 FcaPV1_FcaPV1REF_Lambda_1 MscPV2_MscPV2REF_Dyotau_1 
+
+

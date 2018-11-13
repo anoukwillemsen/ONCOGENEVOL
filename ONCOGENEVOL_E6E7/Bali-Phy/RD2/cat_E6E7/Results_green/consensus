@@ -1,0 +1,25 @@
+# n_trees = 270003   n_topologies = 37   n_splits/(Leaves-3) = 9
+# n_splits = 27   Leaves = 6
+
+Topology support: 
+
+MAP-0 = (('MfPV2_MfPV2REF_Beta_6',('EePV1_EePV1REF_Dyoeta_1',('FcaPV3_FcaPV3REF_Tau_3',('HPV123_HPV123REF_Gamma_7','VvPV1_VvPV1REF_Treiseta')))))'ChPV1_ChPV1REF_Phi_1';
+   PP = 0.270023       LOD = -0.431905     (count = 72907)
+
+95% credible set contains 12 topologies.
+
+
+partition support: 
+
+   PP = 0.999726       LOD = 3.55619       pi = EePV1_EePV1REF_Dyoeta_1 FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 MfPV2_MfPV2REF_Beta_6 
+
+
+   PP = 0.594516       LOD = 0.166188       pi = HPV123_HPV123REF_Gamma_7 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 FcaPV3_FcaPV3REF_Tau_3 MfPV2_MfPV2REF_Beta_6 
+
+
+   PP = 0.371722       LOD = -0.227932       pi = EePV1_EePV1REF_Dyoeta_1 HPV123_HPV123REF_Gamma_7 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 FcaPV3_FcaPV3REF_Tau_3 MfPV2_MfPV2REF_Beta_6 
+
+
+   PP = 0.368655       LOD = -0.233644       pi = FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 MfPV2_MfPV2REF_Beta_6 
+
+

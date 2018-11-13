@@ -1,0 +1,34 @@
+# n_trees = 270003   n_topologies = 108   n_splits/(Leaves-3) = 8.2
+# n_splits = 41   Leaves = 8
+
+Topology support: 
+
+MAP-0 = ((('SscPV3_SscPV3REF_Dyoomikron_1',(('TmPV3_TmPV3REF_Rho_2','TmPV4_TmPV4REF_Rho_2'),('TmPV1_TmPV1REF_Rho_1','TmPV2_TmPV2REF_Rho_1'))),('HPV59_HPV59REF_Alpha_7','HPV78_HPV78REF_Alpha_2')))'HPV42_HPV42REF_Alpha_1';
+   PP = 0.273241       LOD = -0.42484     (count = 73776)
+
+95% credible set contains 23 topologies.
+
+
+partition support: 
+
+   PP = 1       LOD = 5.43137       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 SscPV3_SscPV3REF_Dyoomikron_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+
+   PP = 0.979067       LOD = 1.6699       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 SscPV3_SscPV3REF_Dyoomikron_1 
+
+
+   PP = 0.847531       LOD = 0.744966       pi = HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 | HPV42_HPV42REF_Alpha_1 SscPV3_SscPV3REF_Dyoomikron_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+
+   PP = 0.78855       LOD = 0.571617       pi = SscPV3_SscPV3REF_Dyoomikron_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 
+
+
+   PP = 0.405184       LOD = -0.166728       pi = TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 SscPV3_SscPV3REF_Dyoomikron_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 
+
+
+   PP = 0.321245       LOD = -0.324875       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV4_TmPV4REF_Rho_2 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 SscPV3_SscPV3REF_Dyoomikron_1 TmPV3_TmPV3REF_Rho_2 
+
+
+   PP = 0.273393       LOD = -0.424508       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 SscPV3_SscPV3REF_Dyoomikron_1 TmPV4_TmPV4REF_Rho_2 
+
+

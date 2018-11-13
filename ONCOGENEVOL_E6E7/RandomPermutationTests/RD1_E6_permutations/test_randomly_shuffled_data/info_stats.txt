@@ -1,0 +1,117 @@
+> kruskal.test(treelen_melt$value ~ treelen_melt$Var2);
+
+	Kruskal-Wallis rank sum test
+
+data:  treelen_melt$value by treelen_melt$Var2
+Kruskal-Wallis chi-squared = 267.71, df = 7, p-value < 2.2e-16
+
+> kruskalmc(treelen_melt$value ~ treelen_melt$Var2);
+Multiple comparison test after Kruskal-Wallis 
+p.value: 0.05 
+Comparisons
+                obs.dif critical.dif difference
+tlen_H0-tlen_H1   81.97     102.0845      FALSE
+tlen_H0-tlen_H2  293.32     102.0845       TRUE
+tlen_H0-tlen_H3  322.51     102.0845       TRUE
+tlen_H0-tlen_H4  390.28     102.0845       TRUE
+tlen_H0-tlen_H5  286.30     102.0845       TRUE
+tlen_H0-tlen_H6  341.05     102.0845       TRUE
+tlen_H0-tlen_H7  380.17     102.0845       TRUE
+tlen_H1-tlen_H2  211.35     102.0845       TRUE
+tlen_H1-tlen_H3  240.54     102.0845       TRUE
+tlen_H1-tlen_H4  308.31     102.0845       TRUE
+tlen_H1-tlen_H5  204.33     102.0845       TRUE
+tlen_H1-tlen_H6  259.08     102.0845       TRUE
+tlen_H1-tlen_H7  298.20     102.0845       TRUE
+tlen_H2-tlen_H3   29.19     102.0845      FALSE
+tlen_H2-tlen_H4   96.96     102.0845      FALSE
+tlen_H2-tlen_H5    7.02     102.0845      FALSE
+tlen_H2-tlen_H6   47.73     102.0845      FALSE
+tlen_H2-tlen_H7   86.85     102.0845      FALSE
+tlen_H3-tlen_H4   67.77     102.0845      FALSE
+tlen_H3-tlen_H5   36.21     102.0845      FALSE
+tlen_H3-tlen_H6   18.54     102.0845      FALSE
+tlen_H3-tlen_H7   57.66     102.0845      FALSE
+tlen_H4-tlen_H5  103.98     102.0845       TRUE
+tlen_H4-tlen_H6   49.23     102.0845      FALSE
+tlen_H4-tlen_H7   10.11     102.0845      FALSE
+tlen_H5-tlen_H6   54.75     102.0845      FALSE
+tlen_H5-tlen_H7   93.87     102.0845      FALSE
+tlen_H6-tlen_H7   39.12     102.0845      FALSE
+
+
+>kruskal.test(loglik_melt$value ~ loglik_melt$Var2);
+
+	Kruskal-Wallis rank sum test
+
+data:  loglik_melt$value by loglik_melt$Var2
+Kruskal-Wallis chi-squared = 657.55, df = 7, p-value < 2.2e-16
+
+> kruskalmc(loglik_melt$value ~ loglik_melt$Var2);
+Multiple comparison test after Kruskal-Wallis 
+p.value: 0.05 
+Comparisons
+              obs.dif critical.dif difference
+lnl_H0-lnl_H1   77.79     102.0845      FALSE
+lnl_H0-lnl_H2  179.79     102.0845       TRUE
+lnl_H0-lnl_H3  483.00     102.0845       TRUE
+lnl_H0-lnl_H4  473.91     102.0845       TRUE
+lnl_H0-lnl_H5  373.19     102.0845       TRUE
+lnl_H0-lnl_H6  396.07     102.0845       TRUE
+lnl_H0-lnl_H7  655.13     102.0845       TRUE
+lnl_H1-lnl_H2  102.00     102.0845      FALSE
+lnl_H1-lnl_H3  405.21     102.0845       TRUE
+lnl_H1-lnl_H4  396.12     102.0845       TRUE
+lnl_H1-lnl_H5  295.40     102.0845       TRUE
+lnl_H1-lnl_H6  318.28     102.0845       TRUE
+lnl_H1-lnl_H7  577.34     102.0845       TRUE
+lnl_H2-lnl_H3  303.21     102.0845       TRUE
+lnl_H2-lnl_H4  294.12     102.0845       TRUE
+lnl_H2-lnl_H5  193.40     102.0845       TRUE
+lnl_H2-lnl_H6  216.28     102.0845       TRUE
+lnl_H2-lnl_H7  475.34     102.0845       TRUE
+lnl_H3-lnl_H4    9.09     102.0845      FALSE
+lnl_H3-lnl_H5  109.81     102.0845       TRUE
+lnl_H3-lnl_H6   86.93     102.0845      FALSE
+lnl_H3-lnl_H7  172.13     102.0845       TRUE
+lnl_H4-lnl_H5  100.72     102.0845      FALSE
+lnl_H4-lnl_H6   77.84     102.0845      FALSE
+lnl_H4-lnl_H7  181.22     102.0845       TRUE
+lnl_H5-lnl_H6   22.88     102.0845      FALSE
+lnl_H5-lnl_H7  281.94     102.0845       TRUE
+lnl_H6-lnl_H7  259.06     102.0845       TRUE
+
+
+> kruskal.test(bayes_melt2$value ~ bayes_melt2$Var2);
+
+	Kruskal-Wallis rank sum test
+
+data:  bayes_melt2$value by bayes_melt2$Var2
+Kruskal-Wallis chi-squared = 644.87, df = 6, p-value < 2.2e-16
+
+> kruskalmc(bayes_melt2$value ~ bayes_melt2$Var2);
+Multiple comparison test after Kruskal-Wallis 
+p.value: 0.05 
+Comparisons
+            obs.dif critical.dif difference
+bf_H1-bf_H2  100.00      86.8822       TRUE
+bf_H1-bf_H3  449.43      86.8822       TRUE
+bf_H1-bf_H4  431.25      86.8822       TRUE
+bf_H1-bf_H5  238.54      86.8822       TRUE
+bf_H1-bf_H6  280.79      86.8822       TRUE
+bf_H1-bf_H7  599.99      86.8822       TRUE
+bf_H2-bf_H3  349.43      86.8822       TRUE
+bf_H2-bf_H4  331.25      86.8822       TRUE
+bf_H2-bf_H5  138.54      86.8822       TRUE
+bf_H2-bf_H6  180.79      86.8822       TRUE
+bf_H2-bf_H7  499.99      86.8822       TRUE
+bf_H3-bf_H4   18.18      86.8822      FALSE
+bf_H3-bf_H5  210.89      86.8822       TRUE
+bf_H3-bf_H6  168.64      86.8822       TRUE
+bf_H3-bf_H7  150.56      86.8822       TRUE
+bf_H4-bf_H5  192.71      86.8822       TRUE
+bf_H4-bf_H6  150.46      86.8822       TRUE
+bf_H4-bf_H7  168.74      86.8822       TRUE
+bf_H5-bf_H6   42.25      86.8822      FALSE
+bf_H5-bf_H7  361.45      86.8822       TRUE
+bf_H6-bf_H7  319.20      86.8822       TRUE

@@ -1,0 +1,99 @@
+# Loading trees from 'Manatees_BetaGamma_c1-1//C1.trees'...
+# Loading trees from 'Manatees_BetaGamma_c2-1//C1.trees'...
+# Loading trees from 'Manatees_BetaGamma_c3-1//C1.trees'...
+# [ seed = 4062176455536041719    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+1/6:
+FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 MfPV2_MfPV2REF_Beta_6 TmPV1_TmPV1REF_Rho_1 TmPV4_TmPV4REF_Rho_2 
+   PP1-1 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1   = 1.000       (1=270003  0=0)  [0 !!!]
+
+  LOD1-1 = 4.954
+  LOD1-2 = 4.954
+  LOD1-3 = 4.954
+  LOD1   = 4.954
+
+  RNe1 = -nan
+
+
+2/6:
+HPV123_HPV123REF_Gamma_7 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 FcaPV3_FcaPV3REF_Tau_3 MfPV2_MfPV2REF_Beta_6 TmPV1_TmPV1REF_Rho_1 TmPV4_TmPV4REF_Rho_2 
+   PP1-1 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1   = 1.000       (1=270003  0=0)  [0 !!!]
+
+  LOD1-1 = 4.954
+  LOD1-2 = 4.954
+  LOD1-3 = 4.954
+  LOD1   = 4.954
+
+  RNe1 = -nan
+
+
+3/6:
+TmPV1_TmPV1REF_Rho_1 TmPV4_TmPV4REF_Rho_2 | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 MfPV2_MfPV2REF_Beta_6 VvPV1_VvPV1REF_Treiseta 
+   PP1-1 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1   = 1.000       (1=270003  0=0)  [0 !!!]
+
+  LOD1-1 = 4.954
+  LOD1-2 = 4.954
+  LOD1-3 = 4.954
+  LOD1   = 4.954
+
+  RNe1 = -nan
+
+
+4/6:
+FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 TmPV1_TmPV1REF_Rho_1 TmPV4_TmPV4REF_Rho_2 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 MfPV2_MfPV2REF_Beta_6 
+   PP1-1 = 0.935       (1=84173  0=5828)  [131]
+   PP1-2 = 0.943       (1=84852  0=5149)  [135]
+   PP1-3 = 0.966       (1=86920  0=3081)  [132]
+   PP1   = 0.948       (1=255945  0=14058)  [398]
+
+  LOD1-1 = 1.160       ACT = 552.471          Ne = 162.906
+  LOD1-2 = 1.217       ACT = 643.088          Ne = 139.951
+  LOD1-3 = 1.450       ACT = 130.057          Ne = 692.013
+  LOD1   = 1.260       ACT = 487.728          Ne = 553.594
+
+  RNe1 = inf
+
+
+5/6:
+EePV1_EePV1REF_Dyoeta_1 FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 TmPV1_TmPV1REF_Rho_1 TmPV4_TmPV4REF_Rho_2 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 MfPV2_MfPV2REF_Beta_6 
+   PP1-1 = 0.698       (1=62791  0=27210)  [2429]
+   PP1-2 = 0.729       (1=65632  0=24369)  [2347]
+   PP1-3 = 0.640       (1=57635  0=32366)  [2945]
+   PP1   = 0.689       (1=186058  0=83945)  [7721]
+
+  LOD1-1 = 0.363       ACT = 1289.335          Ne = 69.804
+  LOD1-2 = 0.430       ACT = 526.304          Ne = 171.006
+  LOD1-3 = 0.251       ACT = 640.344          Ne = 140.551
+  LOD1   = 0.346       ACT = 1275.774          Ne = 211.639
+
+  RNe1 = inf
+
+
+6/6:
+FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 MfPV2_MfPV2REF_Beta_6 TmPV1_TmPV1REF_Rho_1 TmPV4_TmPV4REF_Rho_2 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 
+   PP1-1 = 0.277       (1=24948  0=65053)  [2315]
+   PP1-2 = 0.255       (1=22915  0=67086)  [2247]
+   PP1-3 = 0.335       (1=30113  0=59888)  [2816]
+   PP1   = 0.289       (1=77976  0=192027)  [7378]
+
+  LOD1-1 = -0.416       ACT = 487.859          Ne = 184.482
+  LOD1-2 = -0.466       ACT = 360.063          Ne = 249.959
+  LOD1-3 = -0.299       ACT = 574.179          Ne = 156.747
+  LOD1   = -0.391       ACT = 1058.086          Ne = 255.180
+
+  RNe1 = inf
+
+
+ASDSF[min=0.100] = 0.017     MSDSF = 0.045
+min Ne = 211.639    (partition = 5)

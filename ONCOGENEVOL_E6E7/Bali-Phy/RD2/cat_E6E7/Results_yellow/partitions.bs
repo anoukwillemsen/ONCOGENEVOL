@@ -1,0 +1,69 @@
+# Loading trees from 'Lambda_c1-1//C1.trees'...
+# Loading trees from 'Lambda_c2-1//C1.trees'...
+# Loading trees from 'Lambda_c3-1//C1.trees'...
+# [ seed = 14793305823618739309    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+1/4:
+MscPV2_MscPV2REF_Dyotau_1 OcPV1_OcPV1REF_Kappa_1 RfPV1_RfPV1REF_Treisdelta_1 TePV1_TePV1REF_Dyophi_1 | CPV6_CPV6REF_Lambda_3 FcaPV1_FcaPV1REF_Lambda_1 
+   PP1-1 = 1.000       (1=90000  0=1)  [1 !!!]
+   PP1-2 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1   = 1.000       (1=270002  0=1)  [1 !!!]
+
+  LOD1-1 = 4.653
+  LOD1-2 = 4.954
+  LOD1-3 = 4.954
+  LOD1   = 4.829
+
+  RNe1 = inf
+
+
+2/4:
+MscPV2_MscPV2REF_Dyotau_1 TePV1_TePV1REF_Dyophi_1 | CPV6_CPV6REF_Lambda_3 FcaPV1_FcaPV1REF_Lambda_1 OcPV1_OcPV1REF_Kappa_1 RfPV1_RfPV1REF_Treisdelta_1 
+   PP1-1 = 0.926       (1=83345  0=6656)  [2040]
+   PP1-2 = 0.931       (1=83823  0=6178)  [2044]
+   PP1-3 = 0.933       (1=83988  0=6013)  [2028]
+   PP1   = 0.930       (1=251156  0=18847)  [6112]
+
+  LOD1-1 = 1.098       ACT = 16.365          Ne = 5499.558
+  LOD1-2 = 1.132       ACT = 13.343          Ne = 6744.935
+  LOD1-3 = 1.145       ACT = 12.145          Ne = 7410.770
+  LOD1   = 1.125       ACT = 14.322          Ne = 18852.406
+
+  RNe1 = inf
+
+
+3/4:
+MscPV2_MscPV2REF_Dyotau_1 OcPV1_OcPV1REF_Kappa_1 TePV1_TePV1REF_Dyophi_1 | CPV6_CPV6REF_Lambda_3 FcaPV1_FcaPV1REF_Lambda_1 RfPV1_RfPV1REF_Treisdelta_1 
+   PP1-1 = 0.460       (1=41381  0=48620)  [16548]
+   PP1-2 = 0.447       (1=40213  0=49788)  [16504]
+   PP1-3 = 0.451       (1=40555  0=49446)  [16523]
+   PP1   = 0.452       (1=122149  0=147854)  [49575]
+
+  LOD1-1 = -0.070       ACT = 4.591          Ne = 19603.657
+  LOD1-2 = -0.093       ACT = 4.393          Ne = 20485.966
+  LOD1-3 = -0.086       ACT = 4.394          Ne = 20484.971
+  LOD1   = -0.083       ACT = 4.451          Ne = 60658.418
+
+  RNe1 = inf
+
+
+4/4:
+OcPV1_OcPV1REF_Kappa_1 RfPV1_RfPV1REF_Treisdelta_1 | CPV6_CPV6REF_Lambda_3 FcaPV1_FcaPV1REF_Lambda_1 MscPV2_MscPV2REF_Dyotau_1 TePV1_TePV1REF_Dyophi_1 
+   PP1-1 = 0.313       (1=28145  0=61856)  [14033]
+   PP1-2 = 0.328       (1=29562  0=60439)  [14132]
+   PP1-3 = 0.327       (1=29389  0=60612)  [14030]
+   PP1   = 0.323       (1=87096  0=182907)  [42195]
+
+  LOD1-1 = -0.342       ACT = 5.438          Ne = 16549.723
+  LOD1-2 = -0.311       ACT = 5.670          Ne = 15874.144
+  LOD1-3 = -0.314       ACT = 5.847          Ne = 15392.966
+  LOD1   = -0.322       ACT = 5.689          Ne = 47457.954
+
+  RNe1 = inf
+
+
+ASDSF[min=0.100] = 0.004     MSDSF = 0.009
+min Ne = 18852.406    (partition = 2)

@@ -1,0 +1,39 @@
+This directory contains the random permutation test program developed by Leonardo de O. Martins and David Posada as described in Syst Biol's 
+"Testing Universal Common Ancestry" and  Biology Direct "Infinitely long branches and an informal test of common ancestry". The program was modified by Anouk Willemsen for analyses in XXX "Origin and evolution of papillomavirus (onco)genes and genomes". The scripts are dedicated to the public domain (http://creativecommons.org/publicdomain/zero/1.0/) but remember to attribute properly the original authors. 
+
+  1) Necessary software (indispensable programs are marked with '*')
+
+.* phyml     (http://code.google.com/p/phyml/)
+.* biopython (http://biopython.org/wiki/Biopython)
+.  PAML      (http://abacus.gene.ucl.ac.uk/software/paml.html)
+.  R         (http://www.r-project.org/)
+.  muscle    (http://www.drive5.com/muscle/)
+.  ProbCons  (http://probcons.stanford.edu/)
+
+These analyses are strongly dependent on a Unix-like environment. We have done the analyses in GNU/Debian and CentOS
+systems, it might work on MacOS (with darwin ports or fink). On Windows your life will be miserable.
+
+Please visit also http://darwin.uvigo.es/common_origin 
+
+  2) Running on a cluster
+
+Some python programs will create an output like "res_table_????.txt" or "tableLnL_????.txt" where "????" is a large
+random number. This is a quick-and-dirty way to run several instances of the program on a cluster (or an SMP machine),
+so that each instance will output to a (hopefully) distinct file.
+
+  3) Basic structure of test
+
+. In the original analyses (by Leonardo de O. Martins and David Posada) there were multiple directories with each its own structure. Here we have only maintained the directory for the permutation analysis, separating the different data sets in directories. We have maintained the number before the 
+script to indicate the original order of construction. The python program (e.g. "40.reshuffle_RD1_E6_H0-H7.py") must be run, without arguments. 
+
+. The directories already have the output of the analysis (with extension ".txt", in most cases called "tableLnL.txt" or
+a variation on this). The directories also have a "plot_*.R" file with the R script that will interpret the output. 
+
+. There is a template directory called "000.template_tmp_dir" needed by the permutation test. 
+
+. Here is a short explanation about the permutation test:
+
+  Reshuffle analysis, where one of the data sets had its columns iteratively reordered and then the Ml tree length and the Log Likelihood was
+  recalculated for the different Common Ancestry and Independent Origin hypotheses, *after* optimizing the alignment. The "extra" directory is a 
+  preliminary version of the analysis, that just compares values before and after re-alignment.
+

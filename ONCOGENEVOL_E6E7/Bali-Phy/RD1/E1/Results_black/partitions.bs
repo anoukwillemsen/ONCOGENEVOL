@@ -1,0 +1,9 @@
+# Loading trees from 'Manatees_c1-1//C1.trees'...
+# Loading trees from 'Manatees_c2-1//C1.trees'...
+# Loading trees from 'Manatees_c3-1//C1.trees'...
+# [ seed = 5299289303716261678    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+ASDSF[min=0.100] = nan     MSDSF = 0.000
+min Ne = 0.000    (partition = 0)

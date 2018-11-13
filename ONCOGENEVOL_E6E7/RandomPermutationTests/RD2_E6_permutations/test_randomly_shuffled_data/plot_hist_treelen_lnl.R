@@ -1,0 +1,99 @@
+setwd("/DATA/work/ONCOGENEVOL/database/trees/Bali-Phy/RD2_E6_permutations/test_randomly_shuffled_data");
+
+library(reshape2); #to melt data
+library(ggplot2); #for plotting
+library(pgirmess); #for kruskalmc
+library(car); #for LeveneTest
+
+data <- read.table("table_treelen_lnl_100iter.txt", header=T);
+
+tlen_H0 <- data$treelen_ALL;
+tlen_H1 <- data$treelen_gray + data$treelen_part_H1;
+tlen_H2 <- data$treelen_gray + data$treelen_blue + data$treelen_part_H2;
+tlen_H3 <- data$treelen_gray + data$treelen_blue + data$treelen_yellow + data$treelen_part_H3;
+tlen_H4 <- data$treelen_gray + data$treelen_blue + data$treelen_yellow + data$treelen_red + data$treelen_part_H4;
+tlen_H5 <- data$treelen_gray + data$treelen_blue + data$treelen_part_H5_1 + data$treelen_part_H5_2;
+tlen_H6 <- data$treelen_gray + data$treelen_blue + data$treelen_red + data$treelen_black + data$treelen_part_H5_2;
+tlen_H7 <- data$treelen_gray + data$treelen_blue + data$treelen_yellow + data$treelen_red + data$treelen_black + data$treelen_green;
+treelen <- cbind(tlen_H0, tlen_H1, tlen_H2, tlen_H3, tlen_H4, tlen_H5, tlen_H6, tlen_H7);
+treelen_melt <- melt(treelen);
+
+lnl_H0 <- data$lnl_ALL;
+lnl_H1 <- data$lnl_gray + data$lnl_part_H1;
+lnl_H2 <- data$lnl_gray + data$lnl_blue + data$lnl_part_H2;
+lnl_H3 <- data$lnl_gray + data$lnl_blue + data$lnl_yellow + data$lnl_part_H3;
+lnl_H4 <- data$lnl_gray + data$lnl_blue + data$lnl_yellow + data$lnl_red + data$lnl_part_H4;
+lnl_H5 <- data$lnl_gray + data$lnl_blue + data$lnl_part_H5_1 + data$lnl_part_H5_2;
+lnl_H6 <- data$lnl_gray + data$lnl_blue + data$lnl_red + data$lnl_black + data$lnl_part_H5_2;
+lnl_H7 <- data$lnl_gray + data$lnl_blue + data$lnl_yellow + data$lnl_red + data$lnl_black + data$lnl_green;
+loglik <- cbind(lnl_H0, lnl_H1, lnl_H2, lnl_H3, lnl_H4, lnl_H5, lnl_H6, lnl_H7);
+loglik_melt <- melt(loglik);
+
+bf_H0 <- (data$lnl_ALL) - (data$lnl_ALL);
+bf_H1 <- (data$lnl_ALL) - (data$lnl_gray + data$lnl_part_H1);
+bf_H2 <- (data$lnl_ALL) - (data$lnl_gray + data$lnl_blue + data$lnl_part_H2);
+bf_H3 <- (data$lnl_ALL) - (data$lnl_gray + data$lnl_blue + data$lnl_yellow + data$lnl_part_H3);
+bf_H4 <- (data$lnl_ALL) - (data$lnl_gray + data$lnl_blue + data$lnl_yellow + data$lnl_red + data$lnl_part_H4);
+bf_H5 <- (data$lnl_ALL) - (data$lnl_gray + data$lnl_blue + data$lnl_part_H5_1 + data$lnl_part_H5_2);
+bf_H6 <- (data$lnl_ALL) - (data$lnl_gray + data$lnl_blue + data$lnl_red + data$lnl_black + data$lnl_part_H5_2);
+bf_H7 <- (data$lnl_ALL) - (data$lnl_gray + data$lnl_blue + data$lnl_yellow + data$lnl_red + data$lnl_black + data$lnl_green);
+bayes <- cbind(bf_H0, bf_H1, bf_H2, bf_H3, bf_H4, bf_H5, bf_H6, bf_H7);
+bayes_melt <- melt(bayes);
+bayes2 <- cbind(bf_H1, bf_H2, bf_H3, bf_H4, bf_H5, bf_H6, bf_H7);
+bayes_melt2 <- melt(bayes2);
+
+svg(file="hist_MLtreelen_100iter.svg");
+ggplot(treelen_melt, aes(x=value, fill=Var2)) +
+#  xlim(45,80) +
+  geom_histogram(bins=60) +
+  xlab("ML tree length under CA") +
+  ggtitle("RD2: E6");
+dev.off();
+
+svg(file="density_x45-80_MLtreelen_100iter.svg");
+ggplot(treelen_melt, aes(x=value, fill=Var2)) +
+  xlim(45,80) +
+  geom_density(alpha=0.5) +
+  xlab("ML tree length under CA") +
+  ggtitle("RD2: E6");
+dev.off();
+
+svg(file="hist_LnL_100iter.svg");
+ggplot(loglik_melt, aes(x=value, fill=Var2)) +
+  geom_histogram(bins=30) +
+  xlab("Log Likelihood") +
+  ggtitle("RD2: E6");
+dev.off();
+
+svg(file="density_LnL_100iter.svg");
+ggplot(loglik_melt, aes(x=value, fill=Var2)) +
+  geom_density(alpha=0.5) +
+  xlab("Log Likelihood") +
+  ggtitle("RD2: E6");
+dev.off();
+
+svg(file="hist_BF_100iter.svg");
+ggplot(bayes_melt, aes(x=value, fill=Var2)) +
+  geom_histogram(bins=30) +
+  xlab("Bayes Factor") +
+  ggtitle("RD2: E6");
+dev.off();
+
+svg(file="density_BF_100iter.svg");
+ggplot(bayes_melt2, aes(x=value, fill=Var2)) +
+  geom_density(alpha=0.5) +
+  xlab("Bayes Factor") +
+  ggtitle("RD2: E6");
+dev.off();
+
+
+##################### stats ##################### 
+##Non-parametric alternative to one-way ANOVA test
+kruskal.test(treelen_melt$value ~ treelen_melt$Var2);
+kruskalmc(treelen_melt$value ~ treelen_melt$Var2);
+
+kruskal.test(loglik_melt$value ~ loglik_melt$Var2);
+kruskalmc(loglik_melt$value ~ loglik_melt$Var2);
+
+kruskal.test(bayes_melt2$value ~ bayes_melt2$Var2);
+kruskalmc(bayes_melt2$value ~ bayes_melt2$Var2);

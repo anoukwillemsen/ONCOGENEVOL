@@ -1,0 +1,16 @@
+# n_trees = 270003   n_topologies = 3   n_splits/(Leaves-3) = 7
+# n_splits = 7   Leaves = 4
+
+Topology support: 
+
+MAP-0 = (('HPV32_HPV32REF_Alpha_1',('HPV70_HPV70REF_Alpha_7','HPV77_HPV77REF_Alpha_2')))'AgPV1_AgPV1REF_Dyoomikron';
+   PP = 0.903005       LOD = 0.968925     (count = 243814)
+
+95% credible set contains 3 topologies.
+
+
+partition support: 
+
+   PP = 0.903005       LOD = 0.968925       pi = HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 
+
+

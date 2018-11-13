@@ -1,0 +1,22 @@
+# n_trees = 270003   n_topologies = 74   n_splits/(Leaves-3) = 10.3333
+# n_splits = 31   Leaves = 6
+
+Topology support: 
+
+MAP-0 = (('HPV133_HPV133REF_Gamma_10',('VvPV1_VvPV1REF_Treiseta',('FcaPV4_FcaPV4REF_Tau_3',('HPV107_HPV107REF_Beta_2','RtiPV1_RtiPV1REF_unclassified')))))'BpPV1_BpPV1REF_Dyolambda_1';
+   PP = 0.552194       LOD = 0.0910009     (count = 149094)
+
+95% credible set contains 9 topologies.
+
+
+partition support: 
+
+   PP = 0.987519       LOD = 1.89816       pi = HPV107_HPV107REF_Beta_2 RtiPV1_RtiPV1REF_unclassified | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 HPV133_HPV133REF_Gamma_10 VvPV1_VvPV1REF_Treiseta 
+
+
+   PP = 0.850354       LOD = 0.754524       pi = FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 RtiPV1_RtiPV1REF_unclassified VvPV1_VvPV1REF_Treiseta | BpPV1_BpPV1REF_Dyolambda_1 HPV133_HPV133REF_Gamma_10 
+
+
+   PP = 0.631512       LOD = 0.233956       pi = FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 RtiPV1_RtiPV1REF_unclassified | BpPV1_BpPV1REF_Dyolambda_1 HPV133_HPV133REF_Gamma_10 VvPV1_VvPV1REF_Treiseta 
+
+

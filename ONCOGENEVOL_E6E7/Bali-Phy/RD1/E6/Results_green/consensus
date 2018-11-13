@@ -1,0 +1,28 @@
+# n_trees = 270003   n_topologies = 64   n_splits/(Leaves-3) = 10.3333
+# n_splits = 31   Leaves = 6
+
+Topology support: 
+
+MAP-0 = (('FcaPV4_FcaPV4REF_Tau_3',('VvPV1_VvPV1REF_Treiseta',('HPV133_HPV133REF_Gamma_10',('HPV107_HPV107REF_Beta_2','RtiPV1_RtiPV1REF_unclassified')))))'BpPV1_BpPV1REF_Dyolambda_1';
+   PP = 0.276867       LOD = -0.416943     (count = 74755)
+
+95% credible set contains 12 topologies.
+
+
+partition support: 
+
+   PP = 0.982037       LOD = 1.73767       pi = HPV107_HPV107REF_Beta_2 RtiPV1_RtiPV1REF_unclassified | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 HPV133_HPV133REF_Gamma_10 VvPV1_VvPV1REF_Treiseta 
+
+
+   PP = 0.785473       LOD = 0.563643       pi = HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 RtiPV1_RtiPV1REF_unclassified | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 VvPV1_VvPV1REF_Treiseta 
+
+
+   PP = 0.372937       LOD = -0.225675       pi = HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 RtiPV1_RtiPV1REF_unclassified VvPV1_VvPV1REF_Treiseta | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 
+
+
+   PP = 0.33027       LOD = -0.307027       pi = FcaPV4_FcaPV4REF_Tau_3 VvPV1_VvPV1REF_Treiseta | BpPV1_BpPV1REF_Dyolambda_1 HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 RtiPV1_RtiPV1REF_unclassified 
+
+
+   PP = 0.259456       LOD = -0.455482       pi = FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 RtiPV1_RtiPV1REF_unclassified | BpPV1_BpPV1REF_Dyolambda_1 VvPV1_VvPV1REF_Treiseta 
+
+

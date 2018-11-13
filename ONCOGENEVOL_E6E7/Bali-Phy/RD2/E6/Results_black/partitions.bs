@@ -1,0 +1,24 @@
+# Loading trees from 'E6_red3_all4Manatees_c1-1//C1.trees'...
+# Loading trees from 'E6_red3_all4Manatees_c2-1//C1.trees'...
+# Loading trees from 'E6_red3_all4Manatees_c3-1//C1.trees'...
+# [ seed = 6071551785503743921    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+1/1:
+TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 
+   PP1-1 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1   = 1.000       (1=270003  0=0)  [0 !!!]
+
+  LOD1-1 = 4.954
+  LOD1-2 = 4.954
+  LOD1-3 = 4.954
+  LOD1   = 4.954
+
+  RNe1 = -nan
+
+
+ASDSF[min=0.100] = 0.000     MSDSF = 0.000
+min Ne = 0.000    (partition = 0)

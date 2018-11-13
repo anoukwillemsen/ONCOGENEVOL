@@ -1,0 +1,84 @@
+# Loading trees from 'E7_red3_AvesTurtles_PePV1_c1-1//C1.trees'...
+# Loading trees from 'E7_red3_AvesTurtles_PePV1_c2-1//C1.trees'...
+# Loading trees from 'E7_red3_AvesTurtles_PePV1_c3-1//C1.trees'...
+# [ seed = 13563554359608986492    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+1/5:
+FcPV1_FcPV1REF_Eta_1 FgPV1_FgPV1REF_Treiszeta FlPV1_FlPV1REF_Dyoepsilon_1 PaPV1_PaPV1REF_Treisepsilon_1 PePV1_PePV1REF_Theta_1 | CcPV1_CcPV1REF_Dyozeta_1 CmPV1_CmPV1REF_Dyozeta_1 
+   PP1-1 = 0.978       (1=87998  0=2003)  [603]
+   PP1-2 = 0.975       (1=87750  0=2251)  [647]
+   PP1-3 = 0.976       (1=87859  0=2142)  [571]
+   PP1   = 0.976       (1=263607  0=6396)  [1821]
+
+  LOD1-1 = 1.643       ACT = 21.359          Ne = 4213.704
+  LOD1-2 = 1.591       ACT = 20.854          Ne = 4315.801
+  LOD1-3 = 1.613       ACT = 18.861          Ne = 4771.758
+  LOD1   = 1.615       ACT = 20.068          Ne = 13454.395
+
+  RNe1 = inf
+
+
+2/5:
+FlPV1_FlPV1REF_Dyoepsilon_1 PaPV1_PaPV1REF_Treisepsilon_1 | CcPV1_CcPV1REF_Dyozeta_1 CmPV1_CmPV1REF_Dyozeta_1 FcPV1_FcPV1REF_Eta_1 FgPV1_FgPV1REF_Treiszeta PePV1_PePV1REF_Theta_1 
+   PP1-1 = 0.746       (1=67152  0=22849)  [4763]
+   PP1-2 = 0.745       (1=67064  0=22937)  [4577]
+   PP1-3 = 0.737       (1=66296  0=23705)  [4758]
+   PP1   = 0.743       (1=200512  0=69491)  [14098]
+
+  LOD1-1 = 0.468       ACT = 23.121          Ne = 3892.577
+  LOD1-2 = 0.466       ACT = 30.236          Ne = 2976.654
+  LOD1-3 = 0.447       ACT = 23.373          Ne = 3850.672
+  LOD1   = 0.460       ACT = 25.232          Ne = 10700.787
+
+  RNe1 = inf
+
+
+3/5:
+FcPV1_FcPV1REF_Eta_1 FlPV1_FlPV1REF_Dyoepsilon_1 PaPV1_PaPV1REF_Treisepsilon_1 PePV1_PePV1REF_Theta_1 | CcPV1_CcPV1REF_Dyozeta_1 CmPV1_CmPV1REF_Dyozeta_1 FgPV1_FgPV1REF_Treiszeta 
+   PP1-1 = 0.656       (1=59014  0=30987)  [3854]
+   PP1-2 = 0.667       (1=60002  0=29999)  [3826]
+   PP1-3 = 0.669       (1=60189  0=29812)  [3628]
+   PP1   = 0.664       (1=179205  0=90798)  [11308]
+
+  LOD1-1 = 0.280       ACT = 35.482          Ne = 2536.551
+  LOD1-2 = 0.301       ACT = 34.633          Ne = 2598.705
+  LOD1-3 = 0.305       ACT = 37.870          Ne = 2376.603
+  LOD1   = 0.295       ACT = 35.877          Ne = 7525.717
+
+  RNe1 = inf
+
+
+4/5:
+FcPV1_FcPV1REF_Eta_1 PePV1_PePV1REF_Theta_1 | CcPV1_CcPV1REF_Dyozeta_1 CmPV1_CmPV1REF_Dyozeta_1 FgPV1_FgPV1REF_Treiszeta FlPV1_FlPV1REF_Dyoepsilon_1 PaPV1_PaPV1REF_Treisepsilon_1 
+   PP1-1 = 0.312       (1=28075  0=61926)  [6883]
+   PP1-2 = 0.315       (1=28305  0=61696)  [6809]
+   PP1-3 = 0.324       (1=29177  0=60824)  [6716]
+   PP1   = 0.317       (1=85557  0=184446)  [20408]
+
+  LOD1-1 = -0.344       ACT = 24.436          Ne = 3683.206
+  LOD1-2 = -0.338       ACT = 35.531          Ne = 2533.040
+  LOD1-3 = -0.319       ACT = 27.845          Ne = 3232.158
+  LOD1   = -0.334       ACT = 26.913          Ne = 10032.420
+
+  RNe1 = inf
+
+
+5/5:
+FcPV1_FcPV1REF_Eta_1 FlPV1_FlPV1REF_Dyoepsilon_1 PaPV1_PaPV1REF_Treisepsilon_1 | CcPV1_CcPV1REF_Dyozeta_1 CmPV1_CmPV1REF_Dyozeta_1 FgPV1_FgPV1REF_Treiszeta PePV1_PePV1REF_Theta_1 
+   PP1-1 = 0.301       (1=27081  0=62920)  [7257]
+   PP1-2 = 0.311       (1=28022  0=61979)  [7128]
+   PP1-3 = 0.303       (1=27230  0=62771)  [7108]
+   PP1   = 0.305       (1=82333  0=187670)  [21493]
+
+  LOD1-1 = -0.366       ACT = 13.847          Ne = 6499.743
+  LOD1-2 = -0.345       ACT = 18.163          Ne = 4955.088
+  LOD1-3 = -0.363       ACT = 15.342          Ne = 5866.163
+  LOD1   = -0.358       ACT = 14.936          Ne = 18077.455
+
+  RNe1 = inf
+
+
+ASDSF[min=0.100] = 0.004     MSDSF = 0.007
+min Ne = 7525.717    (partition = 3)

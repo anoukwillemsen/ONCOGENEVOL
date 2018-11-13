@@ -1,0 +1,133 @@
+------------------------------------------------
+
+command:  statreport   --skip=10000 E6_red3_all4Manatees_BetaGamma_c1-1//C1.log E6_red3_all4Manatees_BetaGamma_c2-1//C1.log E6_red3_all4Manatees_BetaGamma_c3-1//C1.log > Results/Report
+
+
+command:  trees-consensus E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees E6_red3_all4Manatees_BetaGamma_c2-1//C1.trees E6_red3_all4Manatees_BetaGamma_c3-1//C1.trees  --skip=10000     --consensus=0.5:Results/c50.tree,0.66:Results/c66.tree,0.8:Results/c80.tree,0.9:Results/c90.tree,0.95:Results/c95.tree,0.99:Results/c99.tree,1:Results/c100.tree --consensus-PP=0.5:Results/c50.PP.tree,0.66:Results/c66.PP.tree,0.8:Results/c80.PP.tree,0.9:Results/c90.PP.tree,0.95:Results/c95.PP.tree,0.99:Results/c99.PP.tree,1:Results/c100.PP.tree   --support-levels=Results/c-levels.plot --map-tree=Results/MAP.tree --greedy-consensus=Results/greedy.tree --report=Results/consensus
+
+
+command:  tree-mean-lengths Results/c50.tree --safe --show-node-lengths  --skip=10000   < E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees > Results/c50.ltree
+
+
+command:  tree-mean-lengths Results/c66.tree --safe --show-node-lengths  --skip=10000   < E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees > Results/c66.ltree
+
+
+command:  tree-mean-lengths Results/c80.tree --safe --show-node-lengths  --skip=10000   < E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees > Results/c80.ltree
+
+
+command:  tree-mean-lengths Results/c90.tree --safe --show-node-lengths  --skip=10000   < E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees > Results/c90.ltree
+
+
+command:  tree-mean-lengths Results/c95.tree --safe --show-node-lengths  --skip=10000   < E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees > Results/c95.ltree
+
+
+command:  tree-mean-lengths Results/c99.tree --safe --show-node-lengths  --skip=10000   < E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees > Results/c99.ltree
+
+
+command:  tree-mean-lengths Results/c100.tree --safe --show-node-lengths  --skip=10000   < E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees > Results/c100.ltree
+
+
+command:  pickout --no-header --large pi < Results/consensus > Results/partitions
+
+
+command:  perl -e 'while(<>) {s/$/\n/;print;}' < Results/partitions > Results/partitions.pred
+
+
+command:  trees-bootstrap  E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees E6_red3_all4Manatees_BetaGamma_c2-1//C1.trees E6_red3_all4Manatees_BetaGamma_c3-1//C1.trees --skip=10000  --pred Results/partitions.pred --LOD-table=Results/LOD-table --pseudocount 1 > Results/partitions.bs
+
+
+command:  R --slave --vanilla --args Results/LOD-table Results/convergence-PP.pdf < /home/willemsen/software/bali-phy-3.0-beta2/bin//compare-runs.R
+
+
+command:  R --slave --vanilla --args Results/LOD-table Results/convergence1-PP.svg Results/convergence2-PP.svg < /home/willemsen/software/bali-phy-3.0-beta2/bin//compare-runs2.R
+
+
+command:  trees-to-SRQ Results/partitions.pred  --skip=10000  --max-points=1000 < E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees > Results/partitions.SRQ
+
+
+command:  trees-to-SRQ Results/c50.tree   --skip=10000 --max-points=1000 < E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees > Results/c50.SRQ
+
+
+command:  trees-distances matrix --max=300 --jitter=0.3 --skip=10000 E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees > Results/tree1.M
+
+
+command:  R --slave --vanilla --args Results/tree1.M Results/tree1.svg < /home/willemsen/software/bali-phy-3.0-beta2/bin//tree-plot1.R
+
+
+command:  R --slave --vanilla --args Results/tree1.M < /home/willemsen/software/bali-phy-3.0-beta2/bin//tree-plot1-3D.R
+
+
+command:  trees-distances matrix --max=300 --jitter=0.3 --skip=10000 E6_red3_all4Manatees_BetaGamma_c2-1//C1.trees > Results/tree2.M
+
+
+command:  R --slave --vanilla --args Results/tree2.M Results/tree2.svg < /home/willemsen/software/bali-phy-3.0-beta2/bin//tree-plot1.R
+
+
+command:  R --slave --vanilla --args Results/tree2.M < /home/willemsen/software/bali-phy-3.0-beta2/bin//tree-plot1-3D.R
+
+
+command:  trees-distances matrix --max=300 --jitter=0.3 --skip=10000 E6_red3_all4Manatees_BetaGamma_c3-1//C1.trees > Results/tree3.M
+
+
+command:  R --slave --vanilla --args Results/tree3.M Results/tree3.svg < /home/willemsen/software/bali-phy-3.0-beta2/bin//tree-plot1.R
+
+
+command:  R --slave --vanilla --args Results/tree3.M < /home/willemsen/software/bali-phy-3.0-beta2/bin//tree-plot1-3D.R
+
+
+command:  trees-distances matrix --max=400 --jitter=0.3 --skip=10000 E6_red3_all4Manatees_BetaGamma_c1-1//C1.trees E6_red3_all4Manatees_BetaGamma_c2-1//C1.trees E6_red3_all4Manatees_BetaGamma_c3-1//C1.trees > Results/tree-1-2-3.M
+
+
+command:  R --slave --vanilla --args 400 400 400 Results/tree-1-2-3.M Results/tree-1-2-3.svg < /home/willemsen/software/bali-phy-3.0-beta2/bin//tree-plot3.R
+
+
+command:  cp E6_red3_all4Manatees_BetaGamma_c1-1//C1.P1.initial.fasta Results/Work/P1-initial-unordered.fasta
+
+
+command:  cut-range --skip=10000  < E6_red3_all4Manatees_BetaGamma_c1-1//C1.P1.fastas | alignment-max> Results/Work/P1-max-unordered.fasta
+
+
+command:  alignment-cat Results/Work/P1-initial-unordered.fasta --reorder-by-tree=Results/c50.tree > Results/P1-initial.fasta
+
+
+command:  alignment-draw Results/P1-initial.fasta --show-ruler --color-scheme=DNA+contrast > Results/P1-initial.html 2>/dev/null
+
+
+command:  alignment-draw Results/P1-initial.fasta --show-ruler --color-scheme=AA+contrast > Results/P1-initial.html
+
+
+command:  alignment-cat Results/Work/P1-max-unordered.fasta --reorder-by-tree=Results/c50.tree > Results/P1-max.fasta
+
+
+command:  alignment-draw Results/P1-max.fasta --show-ruler --color-scheme=DNA+contrast > Results/P1-max.html 2>/dev/null
+
+
+command:  alignment-draw Results/P1-max.fasta --show-ruler --color-scheme=AA+contrast > Results/P1-max.html
+
+
+command:  alignments-diff Results/P1-initial.fasta Results/P1-max.fasta > Results/P1-initial-diff.AU
+
+
+command:  alignment-draw Results/P1-initial.fasta --scale=invert --AU Results/P1-initial-diff.AU --show-ruler --color-scheme=Rainbow+fade[1,0]+contrast > Results/P1-initial-diff.html
+
+
+command:  cut-range --skip=10000  < E6_red3_all4Manatees_BetaGamma_c1-1//C1.P1.fastas | alignment-gild Results/P1-max.fasta Results/MAP.tree --max-alignments=500 > Results/P1-max-AU.prob
+
+
+command:  alignment-draw Results/P1-max.fasta --show-ruler --AU Results/P1-max-AU.prob --color-scheme=DNA+contrast+fade+fade+fade+fade > Results/P1-max-AU.html 2>/dev/null
+
+
+command:  alignment-draw Results/P1-max.fasta --show-ruler --AU Results/P1-max-AU.prob --color-scheme=AA+contrast+fade+fade+fade+fade > Results/P1-max-AU.html
+
+
+command:  stats-select likelihood --no-header < E6_red3_all4Manatees_BetaGamma_c1-1//C1.log | tail -n+10000 | model_P > Results/Pmarg
+
+
+command:  pickout n_topologies -n < Results/consensus
+
+
+command:  pickout -n Ne < Results/partitions.bs
+
+
+command:  pickout -n 'min Ne' < Results/partitions.bs
+

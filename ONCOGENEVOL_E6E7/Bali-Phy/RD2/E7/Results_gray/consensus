@@ -1,0 +1,28 @@
+# n_trees = 270003   n_topologies = 126   n_splits/(Leaves-3) = 8.75
+# n_splits = 35   Leaves = 7
+
+Topology support: 
+
+MAP-0 = (('CmPV1_CmPV1REF_Dyozeta_1',('FgPV1_FgPV1REF_Treiszeta',('PePV1_PePV1REF_Theta_1',('FcPV1_FcPV1REF_Eta_1',('FlPV1_FlPV1REF_Dyoepsilon_1','PaPV1_PaPV1REF_Treisepsilon_1'))))))'CcPV1_CcPV1REF_Dyozeta_1';
+   PP = 0.239731       LOD = -0.501239     (count = 64728)
+
+95% credible set contains 34 topologies.
+
+
+partition support: 
+
+   PP = 0.976311       LOD = 1.61498       pi = FcPV1_FcPV1REF_Eta_1 FgPV1_FgPV1REF_Treiszeta FlPV1_FlPV1REF_Dyoepsilon_1 PaPV1_PaPV1REF_Treisepsilon_1 PePV1_PePV1REF_Theta_1 | CcPV1_CcPV1REF_Dyozeta_1 CmPV1_CmPV1REF_Dyozeta_1 
+
+
+   PP = 0.742629       LOD = 0.460208       pi = FlPV1_FlPV1REF_Dyoepsilon_1 PaPV1_PaPV1REF_Treisepsilon_1 | CcPV1_CcPV1REF_Dyozeta_1 CmPV1_CmPV1REF_Dyozeta_1 FcPV1_FcPV1REF_Eta_1 FgPV1_FgPV1REF_Treiszeta PePV1_PePV1REF_Theta_1 
+
+
+   PP = 0.663715       LOD = 0.295271       pi = FcPV1_FcPV1REF_Eta_1 FlPV1_FlPV1REF_Dyoepsilon_1 PaPV1_PaPV1REF_Treisepsilon_1 PePV1_PePV1REF_Theta_1 | CcPV1_CcPV1REF_Dyozeta_1 CmPV1_CmPV1REF_Dyozeta_1 FgPV1_FgPV1REF_Treiszeta 
+
+
+   PP = 0.316874       LOD = -0.333611       pi = FcPV1_FcPV1REF_Eta_1 PePV1_PePV1REF_Theta_1 | CcPV1_CcPV1REF_Dyozeta_1 CmPV1_CmPV1REF_Dyozeta_1 FgPV1_FgPV1REF_Treiszeta FlPV1_FlPV1REF_Dyoepsilon_1 PaPV1_PaPV1REF_Treisepsilon_1 
+
+
+   PP = 0.304934       LOD = -0.357818       pi = FcPV1_FcPV1REF_Eta_1 FlPV1_FlPV1REF_Dyoepsilon_1 PaPV1_PaPV1REF_Treisepsilon_1 | CcPV1_CcPV1REF_Dyozeta_1 CmPV1_CmPV1REF_Dyozeta_1 FgPV1_FgPV1REF_Treiszeta PePV1_PePV1REF_Theta_1 
+
+

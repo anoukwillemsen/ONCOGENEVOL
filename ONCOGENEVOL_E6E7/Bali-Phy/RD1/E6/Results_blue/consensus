@@ -1,0 +1,22 @@
+# n_trees = 270003   n_topologies = 88   n_splits/(Leaves-3) = 10.3333
+# n_splits = 31   Leaves = 6
+
+Topology support: 
+
+MAP-0 = ((('CdPV2_CdPV2REF_Delta_6',('OaPV2_OaPV2REF_Delta_3','OvPV1_OvPV1REF_Delta_2')),('EcPV4_EcPV4REF_Dyoiota_2','EcPV6_EcPV6REF_Dyorho_1')))'BPV8_BPV8REF_Epsilon_1';
+   PP = 0.348204       LOD = -0.272277     (count = 94016)
+
+95% credible set contains 13 topologies.
+
+
+partition support: 
+
+   PP = 0.993952       LOD = 2.21548       pi = EcPV4_EcPV4REF_Dyoiota_2 EcPV6_EcPV6REF_Dyorho_1 | BPV8_BPV8REF_Epsilon_1 CdPV2_CdPV2REF_Delta_6 OaPV2_OaPV2REF_Delta_3 OvPV1_OvPV1REF_Delta_2 
+
+
+   PP = 0.547098       LOD = 0.0820596       pi = CdPV2_CdPV2REF_Delta_6 OaPV2_OaPV2REF_Delta_3 OvPV1_OvPV1REF_Delta_2 | BPV8_BPV8REF_Epsilon_1 EcPV4_EcPV4REF_Dyoiota_2 EcPV6_EcPV6REF_Dyorho_1 
+
+
+   PP = 0.51005       LOD = 0.0174607       pi = OaPV2_OaPV2REF_Delta_3 OvPV1_OvPV1REF_Delta_2 | BPV8_BPV8REF_Epsilon_1 CdPV2_CdPV2REF_Delta_6 EcPV4_EcPV4REF_Dyoiota_2 EcPV6_EcPV6REF_Dyorho_1 
+
+

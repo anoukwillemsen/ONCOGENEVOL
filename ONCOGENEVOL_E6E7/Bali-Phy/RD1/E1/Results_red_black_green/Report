@@ -1,0 +1,195 @@
+   iter = [increasing]
+
+   prior ~ -1211  (-1302,-1124) @ 95%
+       t @ 839.2   Ne = 321   burnin = 1737
+       PSRF-80%CI = 1.005       PSRF-RCF = 1.002
+
+
+   prior_A1 ~ -1228  (-1318,-1144) @ 95%
+          t @ 758.7   Ne = 355   burnin = 1093
+       PSRF-80%CI = 1.004       PSRF-RCF = 1.002
+
+
+   likelihood ~ -1.592e+04  (-1.597e+04,-1.586e+04) @ 95%
+            t @ 572.3   Ne = 471   burnin = 544
+       PSRF-80%CI = 1.002       PSRF-RCF = 0.9998
+
+
+   logp ~ -1.713e+04  (-1.719e+04,-1.707e+04) @ 95%
+      t @ 556.7   Ne = 485   burnin = 1448
+       PSRF-80%CI = 1.005       PSRF-RCF = 1.001
+
+
+   Heat.beta = 1
+
+   Scale1 ~ 5.231  (3.047,8.097) @ 95%
+        t @ 1   Ne = 270003   burnin = 86
+       PSRF-80%CI = 0.9997       PSRF-RCF = 0.9965
+
+
+   S1.F.pi.A ~ 0.07535  (0.06709,0.08352) @ 95%
+           t @ 8.442   Ne = 31984   burnin = 368
+       PSRF-80%CI = 1       PSRF-RCF = 0.9961
+
+
+   S1.F.pi.R ~ 0.03901  (0.03295,0.04541) @ 95%
+           t @ 8.909   Ne = 30306   burnin = 584
+       PSRF-80%CI = 0.9999       PSRF-RCF = 1.007
+
+
+   S1.F.pi.N ~ 0.03706  (0.03187,0.04254) @ 95%
+           t @ 14.34   Ne = 18825   burnin = 173
+       PSRF-80%CI = 1.002       PSRF-RCF = 1
+
+
+   S1.F.pi.D ~ 0.06131  (0.0536,0.06939) @ 95%
+           t @ 9.38   Ne = 28785   burnin = 530
+       PSRF-80%CI = 0.9997       PSRF-RCF = 0.9994
+
+
+   S1.F.pi.C ~ 0.05255  (0.04382,0.06124) @ 95%
+           t @ 8.466   Ne = 31894   burnin = 245
+       PSRF-80%CI = 1       PSRF-RCF = 0.9963
+
+
+   S1.F.pi.Q ~ 0.04323  (0.0376,0.04925) @ 95%
+           t @ 10.69   Ne = 25262   burnin = 645
+       PSRF-80%CI = 1       PSRF-RCF = 1.001
+
+
+   S1.F.pi.E ~ 0.06387  (0.05662,0.07131) @ 95%
+           t @ 14.04   Ne = 19227   burnin = 591
+       PSRF-80%CI = 1       PSRF-RCF = 0.9961
+
+
+   S1.F.pi.G ~ 0.07899  (0.06873,0.08973) @ 95%
+           t @ 13.09   Ne = 20633   burnin = 283
+       PSRF-80%CI = 1       PSRF-RCF = 1.008
+
+
+   S1.F.pi.H ~ 0.02198  (0.0178,0.02656) @ 95%
+           t @ 8.624   Ne = 31306   burnin = 230
+       PSRF-80%CI = 0.9999       PSRF-RCF = 1.005
+
+
+   S1.F.pi.I ~ 0.047  (0.04045,0.05377) @ 95%
+           t @ 9.137   Ne = 29550   burnin = 482
+       PSRF-80%CI = 0.9995       PSRF-RCF = 0.9975
+
+
+   S1.F.pi.L ~ 0.09659  (0.08617,0.1071) @ 95%
+           t @ 9.457   Ne = 28551   burnin = 243
+       PSRF-80%CI = 0.9997       PSRF-RCF = 1.003
+
+
+   S1.F.pi.K ~ 0.04649  (0.04029,0.05314) @ 95%
+           t @ 8.474   Ne = 31862   burnin = 459
+       PSRF-80%CI = 0.9999       PSRF-RCF = 0.9977
+
+
+   S1.F.pi.M ~ 0.02031  (0.01622,0.02457) @ 95%
+           t @ 8.871   Ne = 30436   burnin = 212
+       PSRF-80%CI = 1       PSRF-RCF = 0.9964
+
+
+   S1.F.pi.F ~ 0.04229  (0.03531,0.04951) @ 95%
+           t @ 11.06   Ne = 24412   burnin = 193
+       PSRF-80%CI = 1.002       PSRF-RCF = 1.005
+
+
+   S1.F.pi.P ~ 0.0442  (0.03674,0.05185) @ 95%
+           t @ 27.88   Ne = 9683   burnin = 474
+       PSRF-80%CI = 1       PSRF-RCF = 0.9975
+
+
+   S1.F.pi.S ~ 0.06036  (0.05327,0.06769) @ 95%
+           t @ 10.83   Ne = 24926   burnin = 310
+       PSRF-80%CI = 1       PSRF-RCF = 0.9994
+
+
+   S1.F.pi.T ~ 0.06342  (0.05618,0.07097) @ 95%
+           t @ 10.47   Ne = 25784   burnin = 151
+       PSRF-80%CI = 1       PSRF-RCF = 0.9966
+
+
+   S1.F.pi.W ~ 0.00968  (0.006163,0.01355) @ 95%
+           t @ 8.249   Ne = 32732   burnin = 308
+       PSRF-80%CI = 0.9998       PSRF-RCF = 0.9985
+
+
+   S1.F.pi.Y ~ 0.02743  (0.02192,0.03307) @ 95%
+           t @ 8.123   Ne = 33238   burnin = 267
+       PSRF-80%CI = 1       PSRF-RCF = 1.001
+
+
+   S1.F.pi.V ~ 0.06728  (0.05933,0.07544) @ 95%
+           t @ 13.5   Ne = 19998   burnin = 307
+       PSRF-80%CI = 1       PSRF-RCF = 1.007
+
+
+   I1.RS07.meanIndelLengthMinus1 ~ 3.016  (2.28,3.877) @ 95%
+                               t @ 760.2   Ne = 355   burnin = 1151
+       PSRF-80%CI = 1.008       PSRF-RCF = 1.008
+
+
+   I1.RS07.logLambda ~ -3.912  (-4.102,-3.718) @ 95%
+                   t @ 92.09   Ne = 2931   burnin = 186
+       PSRF-80%CI = 1.001       PSRF-RCF = 1.002
+
+
+   |A1| ~ 958  (912,1008) @ 95%
+      t @ 2289   Ne = 117   burnin = 2088   [integer] 
+       PSRF-80%CI = 0.9839       PSRF-RCF = 0.987
+
+
+   #indels1 ~ 146  (133,158) @ 95%
+          t @ 572.1   Ne = 471   burnin = 799   [integer] 
+       PSRF-80%CI = 0.9       PSRF-RCF = 0.9981
+
+
+   |indels1| ~ 589  (508,674) @ 95%
+           t @ 1597   Ne = 169   burnin = 1788   [integer] 
+       PSRF-80%CI = 1.009       PSRF-RCF = 1.018
+
+
+   #substs1 ~ 2905  (2860,2943) @ 95%
+          t @ 1524   Ne = 177   burnin = 1776   [integer] 
+       PSRF-80%CI = 0.975       PSRF-RCF = 0.9926
+
+
+   Scale1*|T| ~ 6.017  (5.768,6.275) @ 95%
+            t @ 52.65   Ne = 5128   burnin = 122
+       PSRF-80%CI = 1       PSRF-RCF = 1.001
+
+
+   |A| ~ 958  (912,1008) @ 95%
+     t @ 2289   Ne = 117   burnin = 2088   [integer] 
+       PSRF-80%CI = 0.9839       PSRF-RCF = 0.987
+
+
+   #indels ~ 146  (133,158) @ 95%
+         t @ 572.1   Ne = 471   burnin = 799   [integer] 
+       PSRF-80%CI = 0.9       PSRF-RCF = 0.9981
+
+
+   |indels| ~ 589  (508,674) @ 95%
+          t @ 1597   Ne = 169   burnin = 1788   [integer] 
+       PSRF-80%CI = 1.009       PSRF-RCF = 1.018
+
+
+   #substs ~ 2905  (2860,2943) @ 95%
+         t @ 1524   Ne = 177   burnin = 1776   [integer] 
+       PSRF-80%CI = 0.975       PSRF-RCF = 0.9926
+
+
+   |T| ~ 1.15  (0.6659,1.745) @ 95%
+     t @ 1   Ne = 270003   burnin = 86
+       PSRF-80%CI = 1       PSRF-RCF = 0.9974
+
+
+ Ne  >= 118    (|A1|)
+ min burnin <= 2088    (|A1|)
+ PSRF-80%CI <= 1.009    (|indels1|)
+ PSRF-RCF <= 1.018    (|indels1|)
+
+Increasing: iter

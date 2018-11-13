@@ -1,0 +1,43 @@
+# n_trees = 270003   n_topologies = 1034   n_splits/(Leaves-3) = 15.4286
+# n_splits = 108   Leaves = 10
+
+Topology support: 
+
+MAP-0 = (('HPV133_HPV133REF_Gamma_10',('VvPV1_VvPV1REF_Treiseta',('FcaPV4_FcaPV4REF_Tau_3',('RtiPV1_RtiPV1REF_unclassified',('HPV107_HPV107REF_Beta_2',(('TmPV3_TmPV3REF_Rho_2','TmPV4_TmPV4REF_Rho_2'),('TmPV1_TmPV1REF_Rho_1','TmPV2_TmPV2REF_Rho_1'))))))))'BpPV1_BpPV1REF_Dyolambda_1';
+   PP = 0.0799547       LOD = -1.06095     (count = 21588)
+
+95% credible set contains 219 topologies.
+
+
+partition support: 
+
+   PP = 0.999744       LOD = 3.58616       pi = TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 RtiPV1_RtiPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 VvPV1_VvPV1REF_Treiseta 
+
+
+   PP = 0.985322       LOD = 1.82681       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 RtiPV1_RtiPV1REF_unclassified TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 VvPV1_VvPV1REF_Treiseta 
+
+
+   PP = 0.79798       LOD = 0.596592       pi = HPV107_HPV107REF_Beta_2 RtiPV1_RtiPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 HPV133_HPV133REF_Gamma_10 VvPV1_VvPV1REF_Treiseta 
+
+
+   PP = 0.606897       LOD = 0.188607       pi = FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 RtiPV1_RtiPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 VvPV1_VvPV1REF_Treiseta | BpPV1_BpPV1REF_Dyolambda_1 HPV133_HPV133REF_Gamma_10 
+
+
+   PP = 0.46785       LOD = -0.0559264       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 RtiPV1_RtiPV1REF_unclassified VvPV1_VvPV1REF_Treiseta 
+
+
+   PP = 0.418062       LOD = -0.143635       pi = RtiPV1_RtiPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 VvPV1_VvPV1REF_Treiseta 
+
+
+   PP = 0.337026       LOD = -0.293831       pi = FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 RtiPV1_RtiPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | BpPV1_BpPV1REF_Dyolambda_1 HPV133_HPV133REF_Gamma_10 VvPV1_VvPV1REF_Treiseta 
+
+
+   PP = 0.329096       LOD = -0.309335       pi = FcaPV4_FcaPV4REF_Tau_3 HPV133_HPV133REF_Gamma_10 VvPV1_VvPV1REF_Treiseta | BpPV1_BpPV1REF_Dyolambda_1 HPV107_HPV107REF_Beta_2 RtiPV1_RtiPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+
+   PP = 0.328367       LOD = -0.310771       pi = FcaPV4_FcaPV4REF_Tau_3 VvPV1_VvPV1REF_Treiseta | BpPV1_BpPV1REF_Dyolambda_1 HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 RtiPV1_RtiPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+
+   PP = 0.290893       LOD = -0.386975       pi = RtiPV1_RtiPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 VvPV1_VvPV1REF_Treiseta 
+
+

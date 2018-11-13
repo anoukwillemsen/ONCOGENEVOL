@@ -1,0 +1,28 @@
+# n_trees = 270003   n_topologies = 9   n_splits/(Leaves-3) = 3.4
+# n_splits = 17   Leaves = 8
+
+Topology support: 
+
+MAP-0 = (('RtiPV1_RtiPV1REF_unclassified',(('FcaPV4_FcaPV4REF_Tau_3',('HPV133_HPV133REF_Gamma_10','VvPV1_VvPV1REF_Treiseta')),('HPV107_HPV107REF_Beta_2',('TmPV2_TmPV2REF_Rho_1','TmPV3_TmPV3REF_Rho_2')))))'BpPV1_BpPV1REF_Dyolambda_1';
+   PP = 0.75528       LOD = 0.489435     (count = 203928)
+
+95% credible set contains 4 topologies.
+
+
+partition support: 
+
+   PP = 1       LOD = 5.43137       pi = FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 VvPV1_VvPV1REF_Treiseta | BpPV1_BpPV1REF_Dyolambda_1 RtiPV1_RtiPV1REF_unclassified 
+
+
+   PP = 1       LOD = 5.43137       pi = FcaPV4_FcaPV4REF_Tau_3 HPV133_HPV133REF_Gamma_10 VvPV1_VvPV1REF_Treiseta | BpPV1_BpPV1REF_Dyolambda_1 HPV107_HPV107REF_Beta_2 RtiPV1_RtiPV1REF_unclassified TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 
+
+
+   PP = 1       LOD = 5.43137       pi = TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 HPV133_HPV133REF_Gamma_10 RtiPV1_RtiPV1REF_unclassified VvPV1_VvPV1REF_Treiseta 
+
+
+   PP = 0.930101       LOD = 1.12404       pi = HPV133_HPV133REF_Gamma_10 VvPV1_VvPV1REF_Treiseta | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 HPV107_HPV107REF_Beta_2 RtiPV1_RtiPV1REF_unclassified TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 
+
+
+   PP = 0.802061       LOD = 0.607671       pi = HPV107_HPV107REF_Beta_2 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 | BpPV1_BpPV1REF_Dyolambda_1 FcaPV4_FcaPV4REF_Tau_3 HPV133_HPV133REF_Gamma_10 RtiPV1_RtiPV1REF_unclassified VvPV1_VvPV1REF_Treiseta 
+
+

@@ -1,0 +1,54 @@
+# Loading trees from 'PerissoArtio_c1-1//C1.trees'...
+# Loading trees from 'PerissoArtio_c2-1//C1.trees'...
+# Loading trees from 'PerissoArtio_c3-1//C1.trees'...
+# [ seed = 15405386409653474611    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+1/3:
+EcPV1_EcPV1REF_Zeta_1 EcPV2_EcPV2REF_Dyoiota_1 | CdPV1_CdPV1REF_Delta_6 CePV2_CePV2REF_Epsilon OaPV1_OaPV1REF_Delta_3 OvPV1_OvPV1REF_Delta_2 
+   PP1-1 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1   = 1.000       (1=270003  0=0)  [0 !!!]
+
+  LOD1-1 = 4.954
+  LOD1-2 = 4.954
+  LOD1-3 = 4.954
+  LOD1   = 4.954
+
+  RNe1 = -nan
+
+
+2/3:
+CePV2_CePV2REF_Epsilon EcPV1_EcPV1REF_Zeta_1 EcPV2_EcPV2REF_Dyoiota_1 OaPV1_OaPV1REF_Delta_3 | CdPV1_CdPV1REF_Delta_6 OvPV1_OvPV1REF_Delta_2 
+   PP1-1 = 0.990       (1=89059  0=942)  [761]
+   PP1-2 = 0.990       (1=89066  0=935)  [755]
+   PP1-3 = 0.990       (1=89098  0=903)  [739]
+   PP1   = 0.990       (1=267223  0=2780)  [2255]
+
+  LOD1-1 = 1.975       ACT = 1.737          Ne = 51825.146
+  LOD1-2 = 1.978       ACT = 1.669          Ne = 53910.117
+  LOD1-3 = 1.994       ACT = 1.467          Ne = 61342.190
+  LOD1   = 1.982       ACT = 1.637          Ne = 164968.443
+
+  RNe1 = inf
+
+
+3/3:
+CePV2_CePV2REF_Epsilon EcPV1_EcPV1REF_Zeta_1 EcPV2_EcPV2REF_Dyoiota_1 | CdPV1_CdPV1REF_Delta_6 OaPV1_OaPV1REF_Delta_3 OvPV1_OvPV1REF_Delta_2 
+   PP1-1 = 0.986       (1=88760  0=1241)  [901]
+   PP1-2 = 0.984       (1=88586  0=1415)  [1060]
+   PP1-3 = 0.986       (1=88736  0=1265)  [874]
+   PP1   = 0.985       (1=266082  0=3921)  [2835]
+
+  LOD1-1 = 1.854       ACT = 6.725          Ne = 13383.429
+  LOD1-2 = 1.796       ACT = 6.584          Ne = 13668.722
+  LOD1-3 = 1.846       ACT = 7.652          Ne = 11762.030
+  LOD1   = 1.831       ACT = 7.666          Ne = 35220.302
+
+  RNe1 = inf
+
+
+ASDSF[min=0.100] = 0.000     MSDSF = 0.001
+min Ne = 35220.302    (partition = 3)

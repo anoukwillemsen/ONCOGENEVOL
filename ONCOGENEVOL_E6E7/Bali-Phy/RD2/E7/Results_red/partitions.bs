@@ -1,0 +1,39 @@
+# Loading trees from 'Alpha_c1-1//C1.trees'...
+# Loading trees from 'Alpha_c2-1//C1.trees'...
+# Loading trees from 'Alpha_c3-1//C1.trees'...
+# [ seed = 10018152520421455914    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+1/2:
+HPV59_HPV59REF_Alpha_7 HPV78_HPV78REF_Alpha_2 | HPV42_HPV42REF_Alpha_1 SscPV3_SscPV3REF_Dyoomikron_1 
+   PP1-1 = 0.598       (1=53811  0=36190)  [14473]
+   PP1-2 = 0.598       (1=53857  0=36144)  [14380]
+   PP1-3 = 0.598       (1=53796  0=36205)  [14389]
+   PP1   = 0.598       (1=161464  0=108539)  [43242]
+
+  LOD1-1 = 0.172       ACT = 3.441          Ne = 26158.584
+  LOD1-2 = 0.173       ACT = 3.345          Ne = 26908.406
+  LOD1-3 = 0.172       ACT = 3.409          Ne = 26400.235
+  LOD1   = 0.172       ACT = 3.376          Ne = 79972.903
+
+  RNe1 = inf
+
+
+2/2:
+HPV78_HPV78REF_Alpha_2 SscPV3_SscPV3REF_Dyoomikron_1 | HPV42_HPV42REF_Alpha_1 HPV59_HPV59REF_Alpha_7 
+   PP1-1 = 0.341       (1=30701  0=59300)  [13098]
+   PP1-2 = 0.341       (1=30664  0=59337)  [12917]
+   PP1-3 = 0.342       (1=30744  0=59257)  [12988]
+   PP1   = 0.341       (1=92109  0=177894)  [39003]
+
+  LOD1-1 = -0.286       ACT = 3.783          Ne = 23793.803
+  LOD1-2 = -0.287       ACT = 3.686          Ne = 24417.767
+  LOD1-3 = -0.285       ACT = 3.834          Ne = 23476.171
+  LOD1   = -0.286       ACT = 3.760          Ne = 71817.284
+
+  RNe1 = inf
+
+
+ASDSF[min=0.100] = 0.000     MSDSF = 0.000
+min Ne = 71817.284    (partition = 2)

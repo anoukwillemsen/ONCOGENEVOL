@@ -1,0 +1,129 @@
+# Loading trees from 'E7_AA_red3_v2_all4Manatees_BetaGamma_c1-1//C1.trees'...
+# Loading trees from 'E7_AA_red3_v2_all4Manatees_BetaGamma_c2-1//C1.trees'...
+# Loading trees from 'E7_AA_red3_v2_all4Manatees_BetaGamma_c3-1//C1.trees'...
+# [ seed = 11735050155224819652    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+1/8:
+TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 MfPV2_MfPV2REF_Beta_6 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 VvPV1_VvPV1REF_Treiseta 
+   PP1-1 = 0.997       (1=89770  0=231)  [185]
+   PP1-2 = 0.998       (1=89789  0=212)  [172]
+   PP1-3 = 0.997       (1=89770  0=231)  [194]
+   PP1   = 0.997       (1=269329  0=674)  [551]
+
+  LOD1-1 = 2.588       ACT = 1.978          Ne = 45494.105
+  LOD1-2 = 2.625       ACT = 1.842          Ne = 48867.292
+  LOD1-3 = 2.588       ACT = 2.053          Ne = 43834.507
+  LOD1   = 2.600       ACT = 1.960          Ne = 137755.238
+
+  RNe1 = inf
+
+
+2/8:
+TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 MfPV2_MfPV2REF_Beta_6 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 VvPV1_VvPV1REF_Treiseta 
+   PP1-1 = 0.976       (1=87801  0=2200)  [715]
+   PP1-2 = 0.977       (1=87960  0=2041)  [624]
+   PP1-3 = 0.978       (1=88021  0=1980)  [599]
+   PP1   = 0.977       (1=263782  0=6221)  [1938]
+
+  LOD1-1 = 1.601       ACT = 18.341          Ne = 4907.137
+  LOD1-2 = 1.634       ACT = 19.845          Ne = 4535.266
+  LOD1-3 = 1.648       ACT = 21.741          Ne = 4139.690
+  LOD1   = 1.627       ACT = 21.082          Ne = 12807.069
+
+  RNe1 = inf
+
+
+3/8:
+EePV1_EePV1REF_Dyoeta_1 HPV123_HPV123REF_Gamma_7 | ChPV1_ChPV1REF_Phi_1 FcaPV3_FcaPV3REF_Tau_3 MfPV2_MfPV2REF_Beta_6 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 VvPV1_VvPV1REF_Treiseta 
+   PP1-1 = 0.975       (1=87742  0=2259)  [1090]
+   PP1-2 = 0.978       (1=88004  0=1997)  [985]
+   PP1-3 = 0.977       (1=87919  0=2082)  [1129]
+   PP1   = 0.977       (1=263665  0=6338)  [3204]
+
+  LOD1-1 = 1.589       ACT = 21.463          Ne = 4193.253
+  LOD1-2 = 1.644       ACT = 19.125          Ne = 4705.914
+  LOD1-3 = 1.625       ACT = 5.691          Ne = 15815.294
+  LOD1   = 1.619       ACT = 15.739          Ne = 17155.024
+
+  RNe1 = inf
+
+
+4/8:
+EePV1_EePV1REF_Dyoeta_1 FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 MfPV2_MfPV2REF_Beta_6 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+   PP1-1 = 0.792       (1=71256  0=18745)  [6716]
+   PP1-2 = 0.784       (1=70558  0=19443)  [6910]
+   PP1-3 = 0.790       (1=71132  0=18869)  [6857]
+   PP1   = 0.789       (1=212946  0=57057)  [20483]
+
+  LOD1-1 = 0.580       ACT = 52.355          Ne = 1719.064
+  LOD1-2 = 0.560       ACT = 48.149          Ne = 1869.232
+  LOD1-3 = 0.576       ACT = 49.881          Ne = 1804.332
+  LOD1   = 0.572       ACT = 50.635          Ne = 5332.335
+
+  RNe1 = inf
+
+
+5/8:
+TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 MfPV2_MfPV2REF_Beta_6 VvPV1_VvPV1REF_Treiseta 
+   PP1-1 = 0.793       (1=71341  0=18660)  [544]
+   PP1-2 = 0.765       (1=68843  0=21158)  [692]
+   PP1-3 = 0.780       (1=70161  0=19840)  [600]
+   PP1   = 0.779       (1=210345  0=59658)  [1836]
+
+  LOD1-1 = 0.582       ACT = 163.987          Ne = 548.831
+  LOD1-2 = 0.512       ACT = 151.161          Ne = 595.400
+  LOD1-3 = 0.549       ACT = 153.647          Ne = 585.763
+  LOD1   = 0.547       ACT = 163.889          Ne = 1647.470
+
+  RNe1 = inf
+
+
+6/8:
+EePV1_EePV1REF_Dyoeta_1 HPV123_HPV123REF_Gamma_7 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 FcaPV3_FcaPV3REF_Tau_3 MfPV2_MfPV2REF_Beta_6 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+   PP1-1 = 0.494       (1=44481  0=45520)  [10279]
+   PP1-2 = 0.520       (1=46814  0=43187)  [10198]
+   PP1-3 = 0.497       (1=44749  0=45252)  [10396]
+   PP1   = 0.504       (1=136044  0=133959)  [30874]
+
+  LOD1-1 = -0.010       ACT = 92.996          Ne = 967.799
+  LOD1-2 = 0.035       ACT = 88.909          Ne = 1012.287
+  LOD1-3 = -0.005       ACT = 100.360          Ne = 896.779
+  LOD1   = 0.007       ACT = 94.264          Ne = 2864.332
+
+  RNe1 = inf
+
+
+7/8:
+MfPV2_MfPV2REF_Beta_6 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 FcaPV3_FcaPV3REF_Tau_3 HPV123_HPV123REF_Gamma_7 VvPV1_VvPV1REF_Treiseta 
+   PP1-1 = 0.369       (1=33226  0=56775)  [13233]
+   PP1-2 = 0.353       (1=31777  0=58224)  [12982]
+   PP1-3 = 0.365       (1=32831  0=57170)  [13200]
+   PP1   = 0.362       (1=97834  0=172169)  [39414]
+
+  LOD1-1 = -0.233       ACT = 36.133          Ne = 2490.830
+  LOD1-2 = -0.263       ACT = 32.230          Ne = 2792.452
+  LOD1-3 = -0.241       ACT = 29.856          Ne = 3014.523
+  LOD1   = -0.245       ACT = 32.993          Ne = 8183.618
+
+  RNe1 = inf
+
+
+8/8:
+FcaPV3_FcaPV3REF_Tau_3 VvPV1_VvPV1REF_Treiseta | ChPV1_ChPV1REF_Phi_1 EePV1_EePV1REF_Dyoeta_1 HPV123_HPV123REF_Gamma_7 MfPV2_MfPV2REF_Beta_6 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+   PP1-1 = 0.318       (1=28614  0=61387)  [12055]
+   PP1-2 = 0.288       (1=25944  0=64057)  [11785]
+   PP1-3 = 0.310       (1=27896  0=62105)  [12101]
+   PP1   = 0.305       (1=82454  0=187549)  [35941]
+
+  LOD1-1 = -0.331       ACT = 60.641          Ne = 1484.166
+  LOD1-2 = -0.393       ACT = 52.106          Ne = 1727.266
+  LOD1-3 = -0.348       ACT = 63.264          Ne = 1422.615
+  LOD1   = -0.357       ACT = 59.308          Ne = 4552.570
+
+  RNe1 = inf
+
+
+ASDSF[min=0.100] = 0.007     MSDSF = 0.015
+min Ne = 1647.470    (partition = 5)

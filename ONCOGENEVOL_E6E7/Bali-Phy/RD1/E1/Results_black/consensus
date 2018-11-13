@@ -1,0 +1,13 @@
+# n_trees = 270003   n_topologies = 1   n_splits/(Leaves-3) = -1
+# n_splits = 1   Leaves = 2
+
+Topology support: 
+
+MAP-0 = ('TmPV3_TmPV3REF_Rho_2')'TmPV2_TmPV2REF_Rho_1';
+   PP = 1       LOD = 5.43137     (count = 270003)
+
+95% credible set contains 1 topologies.
+
+
+partition support: 
+

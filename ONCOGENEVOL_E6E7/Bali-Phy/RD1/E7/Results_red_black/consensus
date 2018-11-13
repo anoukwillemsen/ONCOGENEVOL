@@ -1,0 +1,34 @@
+# n_trees = 270003   n_topologies = 44   n_splits/(Leaves-3) = 6.2
+# n_splits = 31   Leaves = 8
+
+Topology support: 
+
+MAP-0 = ((('HPV32_HPV32REF_Alpha_1',('TmPV4_TmPV4REF_Rho_2',('TmPV3_TmPV3REF_Rho_2',('TmPV1_TmPV1REF_Rho_1','TmPV2_TmPV2REF_Rho_1')))),('HPV70_HPV70REF_Alpha_7','HPV77_HPV77REF_Alpha_2')))'AgPV1_AgPV1REF_Dyoomikron';
+   PP = 0.319252       LOD = -0.32885     (count = 86199)
+
+95% credible set contains 8 topologies.
+
+
+partition support: 
+
+   PP = 1       LOD = 5.43137       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+
+   PP = 0.996919       LOD = 2.50938       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 
+
+
+   PP = 0.994441       LOD = 2.25228       pi = HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+
+   PP = 0.656593       LOD = 0.281484       pi = HPV32_HPV32REF_Alpha_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 
+
+
+   PP = 0.474165       LOD = -0.0449195       pi = TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 TmPV4_TmPV4REF_Rho_2 
+
+
+   PP = 0.3248       LOD = -0.317814       pi = TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 
+
+
+   PP = 0.286426       LOD = -0.396422       pi = HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 | AgPV1_AgPV1REF_Dyoomikron TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+
+

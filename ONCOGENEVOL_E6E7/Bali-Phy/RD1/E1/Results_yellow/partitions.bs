@@ -1,0 +1,54 @@
+# Loading trees from 'Lambda_c1-1//C1.trees'...
+# Loading trees from 'Lambda_c2-1//C1.trees'...
+# Loading trees from 'Lambda_c3-1//C1.trees'...
+# [ seed = 4845368915271290579    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+1/3:
+EhPV1_EhPV1REF_Dyoupsilon_1 EsPV3_EsPV3REF_Dyopsi_1 SfPV1_SfPV1REF_Kappa_2 | CPV1_CPV1REF_Lambda_2 ElPV1_ElPV1REF_Lambda_4 PlpPV1_PlpPV1REF_Lambda_1 
+   PP1-1 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-2 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1-3 = 1.000       (1=90001  0=0)  [0 !!!]
+   PP1   = 1.000       (1=270003  0=0)  [0 !!!]
+
+  LOD1-1 = 4.954
+  LOD1-2 = 4.954
+  LOD1-3 = 4.954
+  LOD1   = 4.954
+
+  RNe1 = -nan
+
+
+2/3:
+ElPV1_ElPV1REF_Lambda_4 PlpPV1_PlpPV1REF_Lambda_1 | CPV1_CPV1REF_Lambda_2 EhPV1_EhPV1REF_Dyoupsilon_1 EsPV3_EsPV3REF_Dyopsi_1 SfPV1_SfPV1REF_Kappa_2 
+   PP1-1 = 0.994       (1=89459  0=542)  [295]
+   PP1-2 = 0.995       (1=89571  0=430)  [266]
+   PP1-3 = 0.993       (1=89411  0=590)  [298]
+   PP1   = 0.994       (1=268441  0=1562)  [859]
+
+  LOD1-1 = 2.217       ACT = 5.813          Ne = 15483.163
+  LOD1-2 = 2.318       ACT = 4.602          Ne = 19559.053
+  LOD1-3 = 2.180       ACT = 7.364          Ne = 12222.337
+  LOD1   = 2.234       ACT = 6.030          Ne = 44773.713
+
+  RNe1 = inf
+
+
+3/3:
+EhPV1_EhPV1REF_Dyoupsilon_1 EsPV3_EsPV3REF_Dyopsi_1 | CPV1_CPV1REF_Lambda_2 ElPV1_ElPV1REF_Lambda_4 PlpPV1_PlpPV1REF_Lambda_1 SfPV1_SfPV1REF_Kappa_2 
+   PP1-1 = 0.991       (1=89218  0=783)  [67]
+   PP1-2 = 0.993       (1=89387  0=614)  [65]
+   PP1-3 = 0.992       (1=89281  0=720)  [70]
+   PP1   = 0.992       (1=267886  0=2117)  [202]
+
+  LOD1-1 = 2.056       ACT = 52.842          Ne = 1703.198
+  LOD1-2 = 2.162       ACT = 38.826          Ne = 2318.059
+  LOD1-3 = 2.093       ACT = 40.278          Ne = 2234.511
+  LOD1   = 2.102       ACT = 44.298          Ne = 6095.164
+
+  RNe1 = inf
+
+
+ASDSF[min=0.100] = 0.001     MSDSF = 0.001
+min Ne = 6095.164    (partition = 3)

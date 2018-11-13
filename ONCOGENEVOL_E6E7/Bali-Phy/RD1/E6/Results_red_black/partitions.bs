@@ -1,0 +1,76 @@
+# Loading trees from 'E6_red3_Alpha_all4Manatees_c1-1/C1.trees'...
+# [ seed = 17561299669249368040    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+1/10:
+TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 
+   PP1 = 1.000       (1=89999  0=2)  [2 !!!]
+
+  LOD1 = 4.477
+
+
+2/10:
+TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+   PP1 = 1.000       (1=89989  0=12)  [12 !]
+
+  LOD1 = 3.840       ACT = 1.000          Ne = 90001.000
+
+
+3/10:
+TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified PphPV4_PphPV4REF_Dyopi_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 
+   PP1 = 1.000       (1=89981  0=20)  [12 !]
+
+  LOD1 = 3.632       ACT = 2.199          Ne = 40920.791
+
+
+4/10:
+HPV32_HPV32REF_Alpha_1 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV70_HPV70REF_Alpha_7 PphPV4_PphPV4REF_Dyopi_1 
+   PP1 = 0.981       (1=88285  0=1716)  [1127]
+
+  LOD1 = 1.711       ACT = 4.792          Ne = 18780.494
+
+
+5/10:
+MrPV1_MrPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 PphPV4_PphPV4REF_Dyopi_1 
+   PP1 = 0.558       (1=50257  0=39744)  [13709]
+
+  LOD1 = 0.102       ACT = 18.020          Ne = 4994.641
+
+
+6/10:
+HPV70_HPV70REF_Alpha_7 PphPV4_PphPV4REF_Dyopi_1 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+   PP1 = 0.411       (1=36962  0=53039)  [19004]
+
+  LOD1 = -0.157       ACT = 2.100          Ne = 42849.978
+
+
+7/10:
+HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron PphPV4_PphPV4REF_Dyopi_1 
+   PP1 = 0.391       (1=35165  0=54836)  [19755]
+
+  LOD1 = -0.193       ACT = 1.703          Ne = 52835.581
+
+
+8/10:
+HPV32_HPV32REF_Alpha_1 MrPV1_MrPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV70_HPV70REF_Alpha_7 HPV77_HPV77REF_Alpha_2 PphPV4_PphPV4REF_Dyopi_1 
+   PP1 = 0.389       (1=35052  0=54949)  [14426]
+
+  LOD1 = -0.195       ACT = 28.587          Ne = 3148.357
+
+
+9/10:
+HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 PphPV4_PphPV4REF_Dyopi_1 TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 
+   PP1 = 0.280       (1=25214  0=64787)  [11389]
+
+  LOD1 = -0.410       ACT = 19.089          Ne = 4714.716
+
+
+10/10:
+HPV77_HPV77REF_Alpha_2 MrPV1_MrPV1REF_unclassified TmPV1_TmPV1REF_Rho_1 TmPV2_TmPV2REF_Rho_1 TmPV3_TmPV3REF_Rho_2 TmPV4_TmPV4REF_Rho_2 | AgPV1_AgPV1REF_Dyoomikron HPV32_HPV32REF_Alpha_1 HPV70_HPV70REF_Alpha_7 PphPV4_PphPV4REF_Dyopi_1 
+   PP1 = 0.277       (1=24943  0=65058)  [14074]
+
+  LOD1 = -0.416       ACT = 5.145          Ne = 17494.578
+
+
+min Ne = 3148.357    (partition = 8)
