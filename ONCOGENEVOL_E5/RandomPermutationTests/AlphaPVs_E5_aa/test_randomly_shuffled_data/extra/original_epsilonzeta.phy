@@ -1,0 +1,52 @@
+ 12 193
+MUC_MfPV3_E5_EPSILON_DSETA   --MLLFWVTI TPPLS----- ----AFALCL C--------- ----------
+MUC_MfPV4_E5_EPSILON_DSETA   --MLLFWVTL LPPSA----- ----AFALCV L--------- ----------
+MUC_MfPV5_E5_EPSILON_DSETA   --MLLFWVAI LPPTA----- ----AFGLCL L--------- ----------
+MUC_MfPV6_E5_EPSILON_DSETA   --MLLFWVTI VPPFS----- ----AFALCF V--------- ----------
+MUC_MfPV7_E5_EPSILON_DSETA   --MLLFWVTV LSSAE----- ----AFALCI L--------- ----------
+MUC_MfPV8_E5_EPSILON_DSETA   --MLLFWVTI TSPFA----- ----AFGLCL F--------- ----------
+MUC_MfPV9_E5_EPSILON_DSETA   --MLLFWVTI LPSFA----- ----AFGLCL L--------- ----------
+MUC_MfPV10_E5_EPSILON_DSETA  --MLLFWVTI VSPCA----- ----AFGLCV L--------- ----------
+MUC_MfPV11_E5_EPSILON_DSETA  --MLLFWVTI VTPFA----- ----AFGLCL V--------- ----------
+MUC_MfuPV1_E5_EPSILON_DSETA  --MLLFWVTI LPPSA----- ----AFGLCL L--------- ----------
+MUC_MmPV1_E5_EPSILON_DSETA   --MLLFWVSI VNPFA----- ----AFGLCL F--------- ----------
+MUC_PhPV1_E5_EPSILON_DSETA   --MLLFWVTI TSPAA----- ----AFALCV G--------- ----------
+
+                             ---------- ---------- ------CFLC -PVALIHLH- ----AVSVVL
+                             ---------- ---------- ------CFLL -PLLSIYTH- ----VVSVVN
+                             ---------- ---------- ------CFLL -PLFLIYVH- ----ALSVVN
+                             ---------- ---------- ------CFLL -PLLFIHLH- ----ALSVVN
+                             ---------- ---------- ------CFLL -PLFGVHLH- ----ATWVVW
+                             ---------- ---------- ------CFLL -PLFCIHLH- ----ATSVVY
+                             ---------- ---------- ------CFQL -PLFFIYLH- ----ALSVVN
+                             ---------- ---------- ------CFLL -PLFCIHLH- ----ALSVVY
+                             ---------- ---------- ------CFLL -PLFFIHCH- ----ALSVVY
+                             ---------- ---------- ------RFLL -PLFTIYLH- ----ALSVVN
+                             ---------- ---------- ------CFLT -PLLLIHLH- ----ALSVVY
+                             ---------- ---------- ------CFLC -PLFFIHLH- ----ALSVVY
+
+                             GRMEMLYIVQ HYSMLSVVLL LLLCCF---- ---------I LFWHYLLVLR
+                             SRMLLML--P H--LLSFLLL FILVVV---- ---------V VFWQFLWLQR
+                             SRE------- ---MFSFIFL FVLILV---- ---------V LFWQFIWLHR
+                             SRQ------- ---MLPFLFL FILLFI---- ---------A LLLQLIILRL
+                             NRLNNM---- ---LLSLLLL LILTFV---- ---------G VFWQFIWLHR
+                             TRLYG----- ---MLSVFLL LFLMVF---- ---------I LFWHWLLFMR
+                             SRE------- ---MLSFLFL LILLIV---- ---------V LFWQFIWLHR
+                             SRME------ ---MLAWICL LLLIIF---- ---------T LFWHYLLVLR
+                             SRLNE----- ---MLSVLFL FILMFL---- ---------V LFYQLALLQR
+                             SRM------- ---MLSFICL LLLLIL---- ---------V LFWQFIWLHR
+                             SRMMM----- ---LLSVILL LLLLIF---- ---------T LFWHYLLVLR
+                             SRME------ ---MLSVVFL FLLFCF---- ---------I LFWHFLLVLR
+
+                             LCR---PP-- --GRARRCKH KQLRRRRK-- ---------- ---
+                             FHC---PQ-- --GRARRCKQ TQLRRRRRK- ---------- ---
+                             VQR---PP-- --GRARKCKQ LQQRRRRRK- ---------- ---
+                             VVR---PP-- --GRARRCK- -QLRRRRR-- ---------- ---
+                             FMQ---RP-- --VHTKKCKS RQLKRARRR- ---------- ---
+                             FYR---PP-- --GHSKKNKT KQLRRRKK-- ---------- ---
+                             VQRFTCPQ-- --GRARKCKQ LQQRRRRRK- ---------- ---
+                             LRP---PP-- --GRARRCKH RQLRRRK--- ---------- ---
+                             FRC---PP-- --GRRKKCK- -QLRRRRL-- ---------- ---
+                             LQR---PP-- --GRVQKCKQ KQLRRRRRK- ---------- ---
+                             LKP---PA-- --GRARKCK- -QLRRRRR-- ---------- ---
+                             FKR---PP-- --GRARKCKH KQLRRRRK-- ---------- ---

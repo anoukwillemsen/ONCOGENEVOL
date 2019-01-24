@@ -1,0 +1,16 @@
+# n_trees = 300003   n_topologies = 3   n_splits/(Leaves-3) = 7
+# n_splits = 7   Leaves = 4
+
+Topology support: 
+
+MAP-0 = (('GW_HPV6_E5_GAMMA_DELTA',('GW_HPV44_E5_GAMMA_DELTA','GW_PpPV1_E5_GAMMA_DELTA')))'GW_HPV11_E5_GAMMA_DELTA';
+   PP = 0.999993       LOD = 5     (count = 300001)
+
+95% credible set contains 2 topologies.
+
+
+partition support: 
+
+   PP = 0.999993       LOD = 5       pi = GW_HPV44_E5_GAMMA_DELTA GW_PpPV1_E5_GAMMA_DELTA | GW_HPV11_E5_GAMMA_DELTA GW_HPV6_E5_GAMMA_DELTA 
+
+

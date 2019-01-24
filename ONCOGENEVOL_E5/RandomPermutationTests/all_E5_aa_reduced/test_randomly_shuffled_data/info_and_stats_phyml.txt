@@ -1,0 +1,42 @@
+> kruskal.test(treelen_melt$value ~ treelen_melt$Var2);
+
+	Kruskal-Wallis rank sum test
+
+data:  treelen_melt$value by treelen_melt$Var2
+Kruskal-Wallis chi-squared = 55.756, df = 1, p-value = 8.205e-14
+
+> kruskalmc(treelen_melt$value ~ treelen_melt$Var2);
+Multiple comparison test after Kruskal-Wallis 
+p.value: 0.05 
+Comparisons
+                obs.dif critical.dif difference
+tlen_H0-tlen_H1   61.12       16.043       TRUE
+> wilcox.test(tlen_H0, tlen_H1);
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  tlen_H0 and tlen_H1
+W = 8056, p-value = 8.281e-14
+alternative hypothesis: true location shift is not equal to 0
+
+
+> kruskal.test(loglik_melt$value ~ loglik_melt$Var2);
+
+	Kruskal-Wallis rank sum test
+
+data:  loglik_melt$value by loglik_melt$Var2
+Kruskal-Wallis chi-squared = 9.9041, df = 1, p-value = 0.001649
+
+> kruskalmc(loglik_melt$value ~ loglik_melt$Var2);
+Multiple comparison test after Kruskal-Wallis 
+p.value: 0.05 
+Comparisons
+              obs.dif critical.dif difference
+lnl_H0-lnl_H1   25.76       16.043       TRUE
+> wilcox.test(lnl_H0, lnl_H1);
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  lnl_H0 and lnl_H1
+W = 6288, p-value = 0.001656
+alternative hypothesis: true location shift is not equal to 0

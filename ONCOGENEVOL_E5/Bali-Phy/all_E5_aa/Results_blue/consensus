@@ -1,0 +1,49 @@
+# n_trees = 270003   n_topologies = 1029   n_splits/(Leaves-3) = 7.66667
+# n_splits = 69   Leaves = 12
+
+Topology support: 
+
+MAP-0 = (('RtPV1',('OvPV1',((('CcaPV1','RalPV1'),('OaPV1','OaPV2')),('BPV14',('BgPV1',('BPV13',('BPV1','BPV2'))))))))'AaPV1';
+   PP = 0.0509142       LOD = -1.27044     (count = 13747)
+
+95% credible set contains 205 topologies.
+
+
+partition support: 
+
+   PP = 1       LOD = 5.43137       pi = CcaPV1 RalPV1 | AaPV1 BPV1 BPV13 BPV14 BPV2 BgPV1 OaPV1 OaPV2 OvPV1 RtPV1 
+
+
+   PP = 1       LOD = 5.43137       pi = BPV1 BPV13 BPV14 BPV2 BgPV1 | AaPV1 CcaPV1 OaPV1 OaPV2 OvPV1 RalPV1 RtPV1 
+
+
+   PP = 0.998444       LOD = 2.80641       pi = BPV1 BPV13 BPV2 BgPV1 | AaPV1 BPV14 CcaPV1 OaPV1 OaPV2 OvPV1 RalPV1 RtPV1 
+
+
+   PP = 0.968545       LOD = 1.48838       pi = BPV1 BPV13 BPV14 BPV2 BgPV1 CcaPV1 OaPV1 OaPV2 RalPV1 | AaPV1 OvPV1 RtPV1 
+
+
+   PP = 0.95133       LOD = 1.29104       pi = OaPV1 OaPV2 | AaPV1 BPV1 BPV13 BPV14 BPV2 BgPV1 CcaPV1 OvPV1 RalPV1 RtPV1 
+
+
+   PP = 0.759084       LOD = 0.49842       pi = CcaPV1 OaPV1 OaPV2 RalPV1 | AaPV1 BPV1 BPV13 BPV14 BPV2 BgPV1 OvPV1 RtPV1 
+
+
+   PP = 0.538368       LOD = 0.066783       pi = BPV1 BPV13 BPV2 | AaPV1 BPV14 BgPV1 CcaPV1 OaPV1 OaPV2 OvPV1 RalPV1 RtPV1 
+
+
+   PP = 0.408432       LOD = -0.160883       pi = BPV1 BPV13 BPV14 BPV2 BgPV1 CcaPV1 OaPV1 OaPV2 OvPV1 RalPV1 | AaPV1 RtPV1 
+
+
+   PP = 0.3718       LOD = -0.227788       pi = OvPV1 RtPV1 | AaPV1 BPV1 BPV13 BPV14 BPV2 BgPV1 CcaPV1 OaPV1 OaPV2 RalPV1 
+
+
+   PP = 0.258849       LOD = -0.456856       pi = BPV1 BPV2 | AaPV1 BPV13 BPV14 BgPV1 CcaPV1 OaPV1 OaPV2 OvPV1 RalPV1 RtPV1 
+
+
+   PP = 0.253086       LOD = -0.469998       pi = BPV1 BPV13 | AaPV1 BPV14 BPV2 BgPV1 CcaPV1 OaPV1 OaPV2 OvPV1 RalPV1 RtPV1 
+
+
+   PP = 0.251056       LOD = -0.474673       pi = BPV13 BPV2 | AaPV1 BPV1 BPV14 BgPV1 CcaPV1 OaPV1 OaPV2 OvPV1 RalPV1 RtPV1 
+
+

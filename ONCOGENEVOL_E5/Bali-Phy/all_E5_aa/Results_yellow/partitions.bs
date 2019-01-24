@@ -1,0 +1,9 @@
+# Loading trees from 'E5_yellow_aa-1//C1.trees'...
+# Loading trees from 'E5_yellow_aa-2//C1.trees'...
+# Loading trees from 'E5_yellow_aa-3//C1.trees'...
+# [ seed = 13299609169244816664    pseudocount = 1    blocksize = 1801 ]
+
+Support for the different predicates: 
+
+ASDSF[min=0.100] = nan     MSDSF = 0.000
+min Ne = 0.000    (partition = 0)

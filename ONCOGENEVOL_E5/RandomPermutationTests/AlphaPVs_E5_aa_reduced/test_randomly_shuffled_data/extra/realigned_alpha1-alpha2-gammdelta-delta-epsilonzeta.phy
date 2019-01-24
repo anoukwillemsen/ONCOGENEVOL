@@ -1,0 +1,84 @@
+ 20 182
+MUC_HPV70_E5_ALPHA1          ---------- ---------- ---------- ---------- ----------
+MUC_HPV39_E5_ALPHA1          ---------- ---------- ---------- ---------- ----------
+MUC_HPV34_E5_ALPHA2          ---------- ---------- ---------- ---------- ----------
+MUC_HPV58_E5_ALPHA2          ---------- ---------- ---------- ---------- ----------
+MUC_HPV16_E5_ALPHA2          ---------- ---------- ---------- ---------- ----------
+MUC_HPV31_E5_ALPHA2          ---------- ---------- ---------- ---------- ----------
+MUC_PhPV1_E5_EPSILON_DSETA   ---------- ---------- ---------- ---------- ----------
+MUC_MfPV4_E5_EPSILON_DSETA   ---------- ---------- ---------- ---------- ----------
+MUC_MfPV11_E5_EPSILON_DSETA  ---------- ---------- ---------- ---------- ----------
+MUC_MfPV5_E5_EPSILON_DSETA   ---------- ---------- ---------- ---------- ----------
+MUC_HPV85_E5_ALPHA1          ---------- ---------- ---------- ---------- ----------
+MUC_HPV18_E5_ALPHA1          ---------- ---------- ---------- ---------- ----------
+GW_HPV43_E5_DELTA            ---------- ---------- ---------- ---------- ----------
+GW_HPV91_E5_DELTA            ---------- ---------- ---------- ---------- ----------
+GW_HPV7_E5_DELTA             ---------- ---------- ---------- ---------- ----------
+GW_HPV40_E5_DELTA            ---------- ---------- ---------- ---------- ----------
+GW_PpPV1_E5_GAMMA_DELTA      MELQVVPVDF TAKATSQSLL PLLIALTVCF LSIIILIFVS EFLLYSSVLV
+GW_HPV44_E5_GAMMA_DELTA      --MEHIPIDA TIGATSTSLL PVVIALFVCF VSIVLIICIS DFIVYTSILV
+GW_HPV11_E5_GAMMA_DELTA      --MEVVPVQI AAATTTTLIL PVVIAFAVCI LSIVLIILIS DFVVYTSVLV
+GW_HPV6_E5_GAMMA_DELTA       --MEVVPVQI AAGTTSTFIL PVIIAFVVCF VSIILIVWIS EFIVYTSVLV
+
+                             ---------- -MYIVYISMI ALVFLVWFAV CLYICCSVP- -LLPSVHLCA
+                             ---------- --------MI LLVFLVWFGV CIYICCNVP- -LLPSVHVCA
+                             ---------- --------MI IFIFVILFVF GFYMCLSVS- ---LAVSVCV
+                             ---------- --------MI LPIFVVCFIL FLCLCIFL-- -RPLVLSISI
+                             ---------M TNLDTASTTL LACFLLCFCV LLCVCLLI-- -RPLLLSVST
+                             ---------M IELNISTVSI VLCFLLCFCV LLFVCLVI-- -RPLVLSVSV
+                             -----MLLFW VTITSPAAAF ALCVGCFLCP LFFIHLHALS -VVYSRMEML
+                             -----MLLFW VTLLPPSAAF ALCVLCFLLP LLSIYTHVVS -VVNSRMLLM
+                             -----MLLFW VTIVTPFAAF GLCLVCFLLP LFFIHCHALS -VVYSRLNEM
+                             -----MLLFW VAILPPTAAF GLCLLCFLLP LFLIYVHA-- -----LSVVN
+                             ---------- --------ML IAVFLLCFCV CLYVCCTIP- -LFPATNVCA
+                             ---------- --------ML SLIFLFCFCV CMYVCCHVP- -LLPSVCMCA
+                             ---------- ---------- ---------- ---------- -----MLTCT
+                             ---------- ---------- ---------- ---------- -----MLTCQ
+                             ---------- ---------- ---------- ---------- -----MLTCK
+                             ---------- ---------- ---------- ---------- -----MLTCQ
+                             LTLLLYLLLW LLLTPPLQFF LLTLSLCFLP AFCIHQYILQ -TQQQMLTCT
+                             LTLLLYLLLW LLLTSALQFY LLTLCVCFFP AWYIHFHIVH -TQQEMLTCT
+                             LTLLLYLLLW LLLTTPLQFF LLTLCVCYFP AFYIHIYIVQ TQQMVMLTCH
+                             LTLLLYLLLW LLLTTPLQFF LLTLLVCYCP ALYIHYYIVT -TQQMMLTCQ
+
+                             YM----WLLL FVFIVVH-TT --PLQMFCIY LLFFILPMWF LHILSVYA--
+                             YV----WIIV FVFILIR-TT --PLEVFFVY LLFFVLPMWL LHRLAMDMI-
+                             YA----WLLL LIIITFLHVS QSLLKVYILY VCVFYIPMAL VHYHATLQVT
+                             YA----WLLV LVLLLWV-SV GSALRIFFCY LIFLYIPMMC INFHAQYLTQ
+                             YT----SLII LVLLLWI-TA ASAFRCFIVY IIFVYIPLFL IHTHARFLIT
+                             YA----TLLL LIVILWV-IA TSPLRCFCIY VVFIYIPLFV IHTHASFLSQ
+                             S-----VVFL FLLFCFI-LF ---------- ----WHFLLV LRFKRPPGRA
+                             LPHLLSFLLL FILVVVV-VF ---------- ----WQFLWL QRFHCPQGRA
+                             LS----VLFL FILMFLV-LF ---------- ----YQLALL QRFRCPPGRR
+                             SREMFSFIFL FVLILVV-LF ---------- ----WQFIWL HRVQRPPGRA
+                             HA----WLLV FLLIVFI-TT --PFTAFIVY IFFFILPMFL LHLHSVHTFD
+                             YA----WVLV FVYIVVI-TS --PATAFTVY VFCFLLPMLL LHIHAILSLQ
+                             FEDGDTWMFL WLLVTVI-TV ---------- ----LILVLA FHYRTLKLHQ
+                             FDDGDSWMLL WLLVTFI-TV ---------- ----LLMLLV FHYRTVKLLP
+                             LDDGDTWMAL WMLLTFI-TV ---------- ----LLLLLA FHCRTLYVYK
+                             LDDGDTWMAL WMLLAFI-TV ---------- ----LLLLLV FHCRTLYLYR
+                             FNDGDTWLLL WLFASVL-VA ---------- ----IVGLLL LHIRTGNCNS
+                             FDDGDTWLLL WLLLTLI-VT ---------- ----IIALLL MHLKTVQCVT
+                             LNDGDTWLFL WLFTAFV-VA ---------- ----VLGLLL LHYRAVHGTE
+                             FNDGDTWLGL WLLCAFI-VG ---------- ----MLGLLL MHYRAVQGDK
+
+                             ---------- ---------- ---------- --
+                             ---------- ---------- ---------- --
+                             ---------- ---------- ---------- --
+                             QD-------- ---------- ---------- --
+                             ---------- ---------- ---------- --
+                             Q--------- ---------- ---------- --
+                             RKCKHKQLRR RRK------- ---------- --
+                             RRCKQTQLRR RRRK------ ---------- --
+                             KKCKQLRRRR L--------- ---------- --
+                             RKCKQLQQRR RRRK------ ---------- --
+                             ---------- ---------- ---------- --
+                             ---------- ---------- ---------- --
+                             SSSK------ ---------- ---------- --
+                             SSK------- ---------- ---------- --
+                             YSK------- ---------- ---------- --
+                             YTK------- ---------- ---------- --
+                             RFCYSK---- ---------- ---------- --
+                             CSK------- ---------- ---------- --
+                             KTKCAKCKSN RNTTVDYVYM SHGDNGDYVY MN
+                             HTKCKKC-NK HNCNDDYVTM HYTTDGDYIY MN

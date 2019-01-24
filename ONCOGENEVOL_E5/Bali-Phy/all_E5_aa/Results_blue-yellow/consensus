@@ -1,0 +1,55 @@
+# n_trees = 270003   n_topologies = 7370   n_splits/(Leaves-3) = 13
+# n_splits = 143   Leaves = 14
+
+Topology support: 
+
+MAP-0 = (((((('OcPV1','SfPV1'),('CcaPV1','RalPV1')),('OaPV1','OaPV2')),('BPV14',('BgPV1',('BPV1',('BPV13','BPV2'))))),('OvPV1','RtPV1')))'AaPV1';
+   PP = 0.00898138       LOD = -2.04256     (count = 2425)
+
+95% credible set contains 3179 topologies.
+
+
+partition support: 
+
+   PP = 1       LOD = 5.43137       pi = OcPV1 SfPV1 | AaPV1 BPV1 BPV13 BPV14 BPV2 BgPV1 CcaPV1 OaPV1 OaPV2 OvPV1 RalPV1 RtPV1 
+
+
+   PP = 0.969811       LOD = 1.50679       pi = BPV1 BPV13 BPV2 BgPV1 | AaPV1 BPV14 CcaPV1 OaPV1 OaPV2 OcPV1 OvPV1 RalPV1 RtPV1 SfPV1 
+
+
+   PP = 0.94089       LOD = 1.20185       pi = BPV1 BPV13 BPV14 BPV2 BgPV1 | AaPV1 CcaPV1 OaPV1 OaPV2 OcPV1 OvPV1 RalPV1 RtPV1 SfPV1 
+
+
+   PP = 0.827295       LOD = 0.680347       pi = CcaPV1 RalPV1 | AaPV1 BPV1 BPV13 BPV14 BPV2 BgPV1 OaPV1 OaPV2 OcPV1 OvPV1 RtPV1 SfPV1 
+
+
+   PP = 0.820317       LOD = 0.659467       pi = OaPV1 OaPV2 | AaPV1 BPV1 BPV13 BPV14 BPV2 BgPV1 CcaPV1 OcPV1 OvPV1 RalPV1 RtPV1 SfPV1 
+
+
+   PP = 0.77624       LOD = 0.540207       pi = BPV1 BPV13 BPV14 BPV2 BgPV1 CcaPV1 OaPV1 OaPV2 OcPV1 RalPV1 SfPV1 | AaPV1 OvPV1 RtPV1 
+
+
+   PP = 0.530402       LOD = 0.0528777       pi = BPV1 BPV13 BPV2 | AaPV1 BPV14 BgPV1 CcaPV1 OaPV1 OaPV2 OcPV1 OvPV1 RalPV1 RtPV1 SfPV1 
+
+
+   PP = 0.422395       LOD = -0.135911       pi = CcaPV1 OaPV1 OaPV2 OcPV1 RalPV1 SfPV1 | AaPV1 BPV1 BPV13 BPV14 BPV2 BgPV1 OvPV1 RtPV1 
+
+
+   PP = 0.403847       LOD = -0.169139       pi = OvPV1 RtPV1 | AaPV1 BPV1 BPV13 BPV14 BPV2 BgPV1 CcaPV1 OaPV1 OaPV2 OcPV1 RalPV1 SfPV1 
+
+
+   PP = 0.353566       LOD = -0.262051       pi = CcaPV1 OcPV1 RalPV1 SfPV1 | AaPV1 BPV1 BPV13 BPV14 BPV2 BgPV1 OaPV1 OaPV2 OvPV1 RtPV1 
+
+
+   PP = 0.30713       LOD = -0.353327       pi = BPV1 BPV13 BPV14 BPV2 BgPV1 CcaPV1 OaPV1 OaPV2 OcPV1 OvPV1 RalPV1 SfPV1 | AaPV1 RtPV1 
+
+
+   PP = 0.301152       LOD = -0.365594       pi = CcaPV1 OaPV1 OaPV2 RalPV1 | AaPV1 BPV1 BPV13 BPV14 BPV2 BgPV1 OcPV1 OvPV1 RtPV1 SfPV1 
+
+
+   PP = 0.259601       LOD = -0.455156       pi = BPV1 BPV13 BPV14 BPV2 BgPV1 CcaPV1 OaPV1 OaPV2 RalPV1 | AaPV1 OcPV1 OvPV1 RtPV1 SfPV1 
+
+
+   PP = 0.250842       LOD = -0.47517       pi = BPV1 BPV2 | AaPV1 BPV13 BPV14 BgPV1 CcaPV1 OaPV1 OaPV2 OcPV1 OvPV1 RalPV1 RtPV1 SfPV1 
+
+

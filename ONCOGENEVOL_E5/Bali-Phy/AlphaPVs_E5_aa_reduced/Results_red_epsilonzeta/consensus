@@ -1,0 +1,16 @@
+# n_trees = 300003   n_topologies = 2   n_splits/(Leaves-3) = 6
+# n_splits = 6   Leaves = 4
+
+Topology support: 
+
+MAP-0 = (('MUC_PhPV1_E5_EPSILON_DSETA',('MUC_MfPV4_E5_EPSILON_DSETA','MUC_MfPV5_E5_EPSILON_DSETA')))'MUC_MfPV11_E5_EPSILON_DSETA';
+   PP = 0.999993       LOD = 5     (count = 300001)
+
+95% credible set contains 1 topologies.
+
+
+partition support: 
+
+   PP = 0.999993       LOD = 5       pi = MUC_MfPV4_E5_EPSILON_DSETA MUC_MfPV5_E5_EPSILON_DSETA | MUC_MfPV11_E5_EPSILON_DSETA MUC_PhPV1_E5_EPSILON_DSETA 
+
+

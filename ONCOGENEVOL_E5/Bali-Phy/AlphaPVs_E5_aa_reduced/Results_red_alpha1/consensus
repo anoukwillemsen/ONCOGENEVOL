@@ -1,0 +1,16 @@
+# n_trees = 300003   n_topologies = 3   n_splits/(Leaves-3) = 7
+# n_splits = 7   Leaves = 4
+
+Topology support: 
+
+MAP-0 = (('MUC_HPV85_E5_ALPHA1',('MUC_HPV39_E5_ALPHA1','MUC_HPV70_E5_ALPHA1')))'MUC_HPV18_E5_ALPHA1';
+   PP = 0.999983       LOD = 4.69897     (count = 299998)
+
+95% credible set contains 2 topologies.
+
+
+partition support: 
+
+   PP = 0.999983       LOD = 4.69897       pi = MUC_HPV39_E5_ALPHA1 MUC_HPV70_E5_ALPHA1 | MUC_HPV18_E5_ALPHA1 MUC_HPV85_E5_ALPHA1 
+
+
